@@ -1,5 +1,7 @@
 # @scipe/ontologist
 
+[![CircleCI](https://circleci.com/gh/science-periodicals/ontologist.svg?style=svg&circle-token=95d02a17aee1846187df8045b94e81655b15179d)](https://circleci.com/gh/science-periodicals/ontologist)
+
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 Note: this module is auto published to npm on CircleCI. Only run `npm version
@@ -25,6 +27,6 @@ See the `data/` directory.
 
 ## License
 
-`@scipe/workers` is dual-licensed under commercial and open source licenses
+`@scipe/ontologist` is dual-licensed under commercial and open source licenses
 ([AGPLv3](https://www.gnu.org/licenses/agpl-3.0.en.html)) based on the intended
 use case. Contact us to learn which license applies to your use case.
