@@ -1,0 +1,173 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://ns.nature.com/article-types/abstracts-collection>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/Abstract_(summary)> .
+
+<http://ns.nature.com/article-types/addendum>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Addendum> .
+
+<http://ns.nature.com/article-types/advertising-feature>
+    <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Advertorial> .
+
+<http://ns.nature.com/article-types/advertorial>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Advertorial> .
+
+<http://ns.nature.com/article-types/analysis>
+    <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Research_paper> .
+
+<http://ns.nature.com/article-types/article>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Research_paper> .
+
+<http://ns.nature.com/article-types/blog-post>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/Blog> .
+
+<http://ns.nature.com/article-types/blogs>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Blog> .
+
+<http://ns.nature.com/article-types/book-review>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Book_Review> .
+
+<http://ns.nature.com/article-types/brief-communication>
+    <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Research_paper> .
+
+<http://ns.nature.com/article-types/brief-communications-arising>
+    <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Research_paper> .
+
+<http://ns.nature.com/article-types/case-based-learning>
+    <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Case_report> .
+
+<http://ns.nature.com/article-types/case-report>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Case_report> .
+
+<http://ns.nature.com/article-types/clinical-cases>
+    <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Case_report> .
+
+<http://ns.nature.com/article-types/comment>
+    <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Opinion_piece> .
+
+<http://ns.nature.com/article-types/comments-and-opinion>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/Opinion_piece> .
+
+<http://ns.nature.com/article-types/conference-proceeding>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/Proceedings> .
+
+<http://ns.nature.com/article-types/consensus-statement>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/Scientific_consensus> .
+
+<http://ns.nature.com/article-types/correction>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Correction_(newspaper)> .
+
+<http://ns.nature.com/article-types/correspondence>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Letter_to_the_editor> .
+
+<http://ns.nature.com/article-types/corrigendum>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/Erratum> .
+
+<http://ns.nature.com/article-types/crossword>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Crossword> .
+
+<http://ns.nature.com/article-types/data-descriptor>
+    <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Research_paper> .
+
+<http://ns.nature.com/article-types/data-report>
+    <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Research_paper> .
+
+<http://ns.nature.com/article-types/editorial>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Editorial> .
+
+<http://ns.nature.com/article-types/erratum>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Erratum> .
+
+<http://ns.nature.com/article-types/feature>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Feature_story> .
+
+<http://ns.nature.com/article-types/fiction>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/Fiction> .
+
+<http://ns.nature.com/article-types/hypothesis>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/Hypothesis> .
+
+<http://ns.nature.com/article-types/image>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/Image> .
+
+<http://ns.nature.com/article-types/laboratory-methods>
+    <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Protocol_(science)> .
+
+<http://ns.nature.com/article-types/letter>
+    <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Research_paper> .
+
+<http://ns.nature.com/article-types/mini-review>
+    <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Review_article> .
+
+<http://ns.nature.com/article-types/multimedia>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/Multimedia> .
+
+<http://ns.nature.com/article-types/news>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/News> .
+
+<http://ns.nature.com/article-types/news-analysis>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/News> .
+
+<http://ns.nature.com/article-types/news-and-comment>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/News> .
+
+<http://ns.nature.com/article-types/news-in-brief>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/News> .
+
+<http://ns.nature.com/article-types/obituary>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Obituary> .
+
+<http://ns.nature.com/article-types/overview>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/Overview> .
+
+<http://ns.nature.com/article-types/perspective>
+    <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Review_article> .
+
+<http://ns.nature.com/article-types/podcast>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/Podcast> .
+
+<http://ns.nature.com/article-types/primer>
+    <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Review_article> .
+
+<http://ns.nature.com/article-types/protocol>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Protocol_(science)> .
+
+<http://ns.nature.com/article-types/protocols>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Protocol_(science)> .
+
+<http://ns.nature.com/article-types/q-and-a>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/Q&A> .
+
+<http://ns.nature.com/article-types/research>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Research_paper> .
+
+<http://ns.nature.com/article-types/resource>
+    <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Research_paper> .
+
+<http://ns.nature.com/article-types/retraction>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Retraction> .
+
+<http://ns.nature.com/article-types/review-article>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Review_article> .
+
+<http://ns.nature.com/article-types/reviews>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Review_article> .
+
+<http://ns.nature.com/article-types/special-features>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Feature_story> .
+
+<http://ns.nature.com/article-types/technical-report>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Technical_Report> .
+
+<http://ns.nature.com/article-types/technology-feature>
+    <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Feature_story> .
+
+<http://ns.nature.com/article-types/video>
+    <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://dbpedia.org/resource/Video> .
+
+<http://ns.nature.com/article-types/webcast>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/Webcast> .
+
+<http://ns.nature.com/article-types/white-paper>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://dbpedia.org/resource/White_paper> .
+

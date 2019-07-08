@@ -1,0 +1,275 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://ns.nature.com/journals/ajg>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/The_American_Journal_of_Gastroenterology> .
+
+<http://ns.nature.com/journals/bdj>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/British_Dental_Journal> .
+
+<http://ns.nature.com/journals/be>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Business_Economics> .
+
+<http://ns.nature.com/journals/bjc>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/British_Journal_of_Cancer> .
+
+<http://ns.nature.com/journals/bmt>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Bone_Marrow_Transplantation_(journal)> .
+
+<http://ns.nature.com/journals/cdd>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Cell_Death_&_Differentiation>, <http://dbpedia.org/resource/Cell_Death_and_Differentiation> .
+
+<http://ns.nature.com/journals/cpt>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Contemporary_Political_Theory> .
+
+<http://ns.nature.com/journals/cr>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Cell_Research> .
+
+<http://ns.nature.com/journals/eej>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Eastern_Economic_Journal> .
+
+<http://ns.nature.com/journals/ejcn>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/European_Journal_of_Clinical_Nutrition> .
+
+<http://ns.nature.com/journals/ejhg>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/European_Journal_of_Human_Genetics> .
+
+<http://ns.nature.com/journals/ejis>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/European_Journal_of_Information_Systems> .
+
+<http://ns.nature.com/journals/eps>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/European_Political_Science> .
+
+<http://ns.nature.com/journals/gim>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Genetics_in_Medicine> .
+
+<http://ns.nature.com/journals/hdy>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Heredity_(journal)> .
+
+<http://ns.nature.com/journals/iaor>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/International_Abstracts_in_Operations_Research> .
+
+<http://ns.nature.com/journals/ijo>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/International_Journal_of_Obesity> .
+
+<http://ns.nature.com/journals/imfer>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/IMF_Economic_Review> .
+
+<http://ns.nature.com/journals/ismej>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/The_ISME_Journal> .
+
+<http://ns.nature.com/journals/ja>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/The_Journal_of_Antibiotics> .
+
+<http://ns.nature.com/journals/jcb>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Journal_of_Commercial_Biotechnology> .
+
+<http://ns.nature.com/journals/jcbfm>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Journal_of_Cerebral_Blood_Flow_&_Metabolism> .
+
+<http://ns.nature.com/journals/jea>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Journal_of_Exposure_Analysis_and_Environmental_Epidemiology> .
+
+<http://ns.nature.com/journals/jes>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Journal_of_Exposure_Science_and_Environmental_Epidemiology> .
+
+<http://ns.nature.com/journals/jhg>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Journal_of_Human_Genetics> .
+
+<http://ns.nature.com/journals/jhh>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Journal_of_Human_Hypertension> .
+
+<http://ns.nature.com/journals/jibs>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Journal_of_International_Business_Studies> .
+
+<http://ns.nature.com/journals/jid>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Journal_of_Investigative_Dermatology> .
+
+<http://ns.nature.com/journals/jors>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Journal_of_the_Operational_Research_Society> .
+
+<http://ns.nature.com/journals/jos>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Journal_of_Simulation> .
+
+<http://ns.nature.com/journals/jphp>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Journal_of_Public_Health_Policy> .
+
+<http://ns.nature.com/journals/ki>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Kidney_International> .
+
+<http://ns.nature.com/journals/kmrp>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Knowledge_Management_Research_and_Practice> .
+
+<http://ns.nature.com/journals/labinvest>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Laboratory_Investigation_(journal)> .
+
+<http://ns.nature.com/journals/leu>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Leukemia_(journal)> .
+
+<http://ns.nature.com/journals/mp>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Molecular_Psychiatry> .
+
+<http://ns.nature.com/journals/nature>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_(journal)> .
+
+<http://ns.nature.com/journals/nbt>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Biotechnology> .
+
+<http://ns.nature.com/journals/ncb>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Cell_Biology> .
+
+<http://ns.nature.com/journals/nchem>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Chemistry> .
+
+<http://ns.nature.com/journals/nchembio>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Chemical_Biology> .
+
+<http://ns.nature.com/journals/nchina>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_China> .
+
+<http://ns.nature.com/journals/nclimate>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Climate_Change> .
+
+<http://ns.nature.com/journals/ncomms>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Communications> .
+
+<http://ns.nature.com/journals/ncpcardio>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Clinical_Practice_Cardiovascular_Medicine> .
+
+<http://ns.nature.com/journals/ncpendmet>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Clinical_Practice_Endocrinology_&_Metabolism> .
+
+<http://ns.nature.com/journals/ncpgasthep>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Clinical_Practice_Gastroenterology_&_Hepatology>, <http://dbpedia.org/resource/Nature_Reviews_Gastroenterology_&_Hepatology> .
+
+<http://ns.nature.com/journals/ncpneph>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Clinical_Practice_Nephrology> .
+
+<http://ns.nature.com/journals/ncpneuro>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Clinical_Practice_Neurology> .
+
+<http://ns.nature.com/journals/ncponc>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Clinical_Practice_Oncology> .
+
+<http://ns.nature.com/journals/ncprheum>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Clinical_Practice_Rheumatology> .
+
+<http://ns.nature.com/journals/ncpuro>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Clinical_Practice_Urology> .
+
+<http://ns.nature.com/journals/neuro>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Neuroscience> .
+
+<http://ns.nature.com/journals/news>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_News> .
+
+<http://ns.nature.com/journals/ng>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Genetics> .
+
+<http://ns.nature.com/journals/ngeo>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Geoscience> .
+
+<http://ns.nature.com/journals/ni>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Immunology> .
+
+<http://ns.nature.com/journals/nindia>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_India> .
+
+<http://ns.nature.com/journals/nm>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Medicine> .
+
+<http://ns.nature.com/journals/nmat>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Materials> .
+
+<http://ns.nature.com/journals/nmeth>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Methods> .
+
+<http://ns.nature.com/journals/nnano>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Nanotechnology> .
+
+<http://ns.nature.com/journals/nphoton>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Photonics> .
+
+<http://ns.nature.com/journals/nphys>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Physics> .
+
+<http://ns.nature.com/journals/npp>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Neuropsychopharmacology_(journal)> .
+
+<http://ns.nature.com/journals/nprot>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Protocols> .
+
+<http://ns.nature.com/journals/nrc>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Reviews_Cancer> .
+
+<http://ns.nature.com/journals/nrcardio>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Reviews_Cardiology> .
+
+<http://ns.nature.com/journals/nrclinonc>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Reviews_Clinical_Oncology> .
+
+<http://ns.nature.com/journals/nrd>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Reviews_Drug_Discovery> .
+
+<http://ns.nature.com/journals/nrendo>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Reviews_Endocrinology> .
+
+<http://ns.nature.com/journals/nrg>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Reviews_Genetics> .
+
+<http://ns.nature.com/journals/nri>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Reviews_Immunology> .
+
+<http://ns.nature.com/journals/nrm>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Reviews_Molecular_Cell_Biology> .
+
+<http://ns.nature.com/journals/nrmicro>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Reviews_Microbiology> .
+
+<http://ns.nature.com/journals/nrn>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Reviews_Neuroscience> .
+
+<http://ns.nature.com/journals/nrneph>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Reviews_Nephrology> .
+
+<http://ns.nature.com/journals/nrneurol>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Reviews_Neurology> .
+
+<http://ns.nature.com/journals/nrrheum>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Reviews_Rheumatology> .
+
+<http://ns.nature.com/journals/nrurol>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Reviews_Urology> .
+
+<http://ns.nature.com/journals/nsb>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Structural_Biology> .
+
+<http://ns.nature.com/journals/nsmb>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Nature_Structural_&_Molecular_Biology>, <http://dbpedia.org/resource/Nature_Structural_and_Molecular_Biology> .
+
+<http://ns.nature.com/journals/onc>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Oncogene_(journal)> .
+
+<http://ns.nature.com/journals/ori>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/OR_Insight> .
+
+<http://ns.nature.com/journals/pj>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Polymer_Journal> .
+
+<http://ns.nature.com/journals/pr>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Pediatric_Research> .
+
+<http://ns.nature.com/journals/scientificamerican>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Scientific_American> .
+
+<http://ns.nature.com/journals/scientificamericanmind>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Scientific_American_Mind> .
+
+<http://ns.nature.com/journals/srep>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Scientific_Reports> .
+
+<http://ns.nature.com/journals/tp>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Translational_Psychiatry> .
+
+<http://ns.nature.com/journals/tpj>
+    <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/The_Pharmacogenomics_Journal> .
+

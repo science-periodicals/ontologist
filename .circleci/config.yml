@@ -1,0 +1,59 @@
+version: 2
+jobs:
+  test:
+    working_directory: ~/ontologist
+    docker:
+      - image: circleci/node:dubnium
+      - image: redis
+    environment:
+      REDIS_HOST: 127.0.0.1
+      REDIS_PORT: 6379
+      REDIS_PASSWORD: ''
+    steps:
+      - checkout
+      - run: sudo apt-get install redis-tools # redis-tool provides redis-cli
+      - run: echo '//registry.npmjs.org/:_authToken='$NPM_PRIVATE_AUTH_TOKEN > $HOME/.npmrc
+      - restore_cache:
+          keys:
+            - v3-node_modules-{{ checksum "package-lock.json" }}
+            - v3-node_modules-
+      - run: npm install
+      - save_cache:
+          key: v3-node_modules-{{ checksum "package-lock.json" }}
+          paths:
+            - node_modules
+      - run: npm test
+      - persist_to_workspace:
+          root: ~/ontologist
+          paths: .
+
+  publish:
+    working_directory: ~/ontologist
+    docker:
+      - image: circleci/node:dubnium
+    steps:
+      - attach_workspace:
+          at: ~/ontologist
+      - run:
+          name: Authenticate with registry
+          command: echo '//registry.npmjs.org/:_authToken='$NPM_PRIVATE_AUTH_TOKEN > $HOME/.npmrc
+      - run:
+          name: Publish package
+          command: npm publish
+
+workflows:
+  version: 2
+  test-publish:
+    jobs:
+      - test:
+          filters:  # required since `publish` has tag filters AND requires `test`
+            tags:
+              only: /.*/
+      - publish:
+          requires:
+            - test
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v.*/

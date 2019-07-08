@@ -1,0 +1,95 @@
+@prefix :            <http://ns.nature.com/terms/> .
+@prefix bibo:        <http://purl.org/ontology/bibo/> .
+@prefix dc:          <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms:     <http://purl.org/dc/terms/> .
+@prefix foaf:        <http://xmlns.com/foaf/0.1/> .
+@prefix npg:         <http://ns.nature.com/terms/> .
+@prefix npgd:        <http://ns.nature.com/datasets/> .
+@prefix npgg:        <http://ns.nature.com/graphs/> .
+@prefix owl:         <http://www.w3.org/2002/07/owl#> .
+@prefix prism:       <http://prismstandard.org/namespaces/basic/2.1/> .
+@prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:        <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:        <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann:        <http://purl.org/vocab/vann/> .
+@prefix xsd:         <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix publish-states: <http://ns.nature.com/publish-states/> .
+
+publish-states:
+    npg:webpage <http://www.nature.com/ontologies/models/publish-states/> ;
+    dc:date "2015-08-17T06:12:06.013-04:00" ;
+    dc:publisher "Macmillan Publishers Limited" ;
+    dc:rights "This work is distributed under a Creative Commons Zero 1.0 (CC0 1.0) Public Domain Dedication <http://creativecommons.org/publicdomain/zero/1.0/>."@en ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    vann:preferredNamespacePrefix "publish-states" ;
+    vann:preferredNamespaceUri "http://ns.nature.com/publish-states/" ;
+    a owl:Ontology, skos:ConceptScheme ;
+    owl:imports <http://ns.nature.com/terms/> ;
+    owl:versionInfo "1.9.45" ;
+    skos:definition "The PublishStates Ontology is a categorization of the various states that mark the publishing status of a publication."@en ;
+    skos:prefLabel "PublishStates Ontology"@en .
+
+publish-states:accepted-article-preview
+    npg:id "accepted-article-preview" ;
+    a npg:PublishState , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/publish-states/> ;
+    skos:definition "The :accepted-article-preview publish-state is used to characterize events in which an article is published as an author proof."@en ;
+    skos:inScheme <http://ns.nature.com/publish-states/> ;
+    skos:prefLabel "Accepted article preview"@en ;
+    skos:topConceptOf <http://ns.nature.com/publish-states/> .
+
+publish-states:advance-online-publication
+    npg:id "advance-online-publication" ;
+    a npg:PublishState , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/publish-states/> ;
+    skos:definition "The :advance-online-publication publish-state is used to characterize events in which an invidual article is published that will later be republished as part of an issue."@en ;
+    skos:inScheme <http://ns.nature.com/publish-states/> ;
+    skos:prefLabel "Advance online publication"@en ;
+    skos:topConceptOf <http://ns.nature.com/publish-states/> .
+
+publish-states:final-author-version
+    npg:id "final-author-version" ;
+    a npg:PublishState , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/publish-states/> ;
+    skos:definition "The :final-author-version publish-state is used to characterize events in which an article is published after author corrections."@en ;
+    skos:inScheme <http://ns.nature.com/publish-states/> ;
+    skos:prefLabel "Final author version"@en ;
+    skos:topConceptOf <http://ns.nature.com/publish-states/> .
+
+publish-states:issue-publication
+    npg:id "issue-publication" ;
+    a npg:PublishState , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/publish-states/> ;
+    skos:definition "The :issue-publication publish-state is used to characterize events in which an article is published within an issue."@en ;
+    skos:inScheme <http://ns.nature.com/publish-states/> ;
+    skos:prefLabel "Issue publication"@en ;
+    skos:topConceptOf <http://ns.nature.com/publish-states/> .
+
+publish-states:near-final-version
+    npg:id "near-final-version" ;
+    a npg:PublishState , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/publish-states/> ;
+    skos:definition "The :near-final-version publish-state is used to characterize events in which an article is published 48 hours before final publication."@en ;
+    skos:inScheme <http://ns.nature.com/publish-states/> ;
+    skos:prefLabel "Near-final version"@en ;
+    skos:topConceptOf <http://ns.nature.com/publish-states/> .
+
+publish-states:publication
+    npg:id "publication" ;
+    a npg:PublishState , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/publish-states/> ;
+    skos:definition "The :publication publish-state is used to characterize events in which an individual article is published that will never be republished as part of an issue."@en ;
+    skos:inScheme <http://ns.nature.com/publish-states/> ;
+    skos:prefLabel "Publication"@en ;
+    skos:topConceptOf <http://ns.nature.com/publish-states/> .
+
+publish-states:supplement-issue
+    npg:id "supplement-issue" ;
+    a npg:PublishState , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/publish-states/> ;
+    skos:definition "The :supplement-issue publish-state is used to characterize events in which an article is published within a supplement issue."@en ;
+    skos:inScheme <http://ns.nature.com/publish-states/> ;
+    skos:prefLabel "Supplement issue"@en ;
+    skos:topConceptOf <http://ns.nature.com/publish-states/> .
+

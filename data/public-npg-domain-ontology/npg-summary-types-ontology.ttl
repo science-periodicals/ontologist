@@ -1,0 +1,68 @@
+@prefix :            <http://ns.nature.com/terms/> .
+@prefix bibo:        <http://purl.org/ontology/bibo/> .
+@prefix dc:          <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms:     <http://purl.org/dc/terms/> .
+@prefix foaf:        <http://xmlns.com/foaf/0.1/> .
+@prefix npg:         <http://ns.nature.com/terms/> .
+@prefix npgd:        <http://ns.nature.com/datasets/> .
+@prefix npgg:        <http://ns.nature.com/graphs/> .
+@prefix owl:         <http://www.w3.org/2002/07/owl#> .
+@prefix prism:       <http://prismstandard.org/namespaces/basic/2.1/> .
+@prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:        <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:        <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann:        <http://purl.org/vocab/vann/> .
+@prefix xsd:         <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix summary-types: <http://ns.nature.com/summary-types/> .
+
+summary-types:
+    npg:webpage <http://www.nature.com/ontologies/models/summary-types/> ;
+    dc:date "2015-08-17T06:14:00.153-04:00" ;
+    dc:publisher "Macmillan Publishers Limited" ;
+    dc:rights "This work is distributed under a Creative Commons Zero 1.0 (CC0 1.0) Public Domain Dedication <http://creativecommons.org/publicdomain/zero/1.0/>."@en ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    vann:preferredNamespacePrefix "summary-types" ;
+    vann:preferredNamespaceUri "http://ns.nature.com/summary-types/" ;
+    a owl:Ontology, skos:ConceptScheme ;
+    owl:imports <http://ns.nature.com/terms/> ;
+    owl:versionInfo "1.9.45" ;
+    skos:definition "The SummaryTypes Ontology is a categorization of editorially created summaries that are associated with specific articles."@en ;
+    skos:prefLabel "SummaryTypes Ontology"@en .
+
+summary-types:key-points
+    npg:id "key-points" ;
+    a npg:SummaryType , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/summary-types/> ;
+    skos:definition "The :key-points summary-type denotes a longer bulleted list, aka \"Key Advances\", with optional title and optional image."@en ;
+    skos:inScheme <http://ns.nature.com/summary-types/> ;
+    skos:prefLabel "Key Points"@en ;
+    skos:topConceptOf <http://ns.nature.com/summary-types/> .
+
+summary-types:long-summary
+    npg:id "long-summary" ;
+    a npg:SummaryType , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/summary-types/> ;
+    skos:definition "The :long-summary summary-type denotes a summary of maximum 150 words, with optional title and optional image."@en ;
+    skos:inScheme <http://ns.nature.com/summary-types/> ;
+    skos:prefLabel "Long Summary"@en ;
+    skos:topConceptOf <http://ns.nature.com/summary-types/> .
+
+summary-types:short-summary
+    npg:id "short-summary" ;
+    a npg:SummaryType , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/summary-types/> ;
+    skos:definition "The :short-summary summary-type denotes a summary of maximum 50 words, with optional title and optional image."@en ;
+    skos:inScheme <http://ns.nature.com/summary-types/> ;
+    skos:prefLabel "Short Summary"@en ;
+    skos:topConceptOf <http://ns.nature.com/summary-types/> .
+
+summary-types:standfirst
+    npg:id "standfirst" ;
+    a npg:SummaryType , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/summary-types/> ;
+    skos:definition "The :standfirst summary-type denotes a short, one line summary with no title or images allowed."@en ;
+    skos:inScheme <http://ns.nature.com/summary-types/> ;
+    skos:prefLabel "Standfirst"@en ;
+    skos:topConceptOf <http://ns.nature.com/summary-types/> .
+

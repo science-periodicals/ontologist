@@ -1,0 +1,77 @@
+@prefix :            <http://ns.nature.com/terms/> .
+@prefix bibo:        <http://purl.org/ontology/bibo/> .
+@prefix dc:          <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms:     <http://purl.org/dc/terms/> .
+@prefix foaf:        <http://xmlns.com/foaf/0.1/> .
+@prefix npg:         <http://ns.nature.com/terms/> .
+@prefix npgd:        <http://ns.nature.com/datasets/> .
+@prefix npgg:        <http://ns.nature.com/graphs/> .
+@prefix owl:         <http://www.w3.org/2002/07/owl#> .
+@prefix prism:       <http://prismstandard.org/namespaces/basic/2.1/> .
+@prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:        <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:        <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann:        <http://purl.org/vocab/vann/> .
+@prefix xsd:         <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix review-states: <http://ns.nature.com/review-states/> .
+
+review-states:
+    npg:webpage <http://www.nature.com/ontologies/models/review-states/> ;
+    dc:date "2015-08-17T06:12:06.022-04:00" ;
+    dc:publisher "Macmillan Publishers Limited" ;
+    dc:rights "This work is distributed under a Creative Commons Zero 1.0 (CC0 1.0) Public Domain Dedication <http://creativecommons.org/publicdomain/zero/1.0/>."@en ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    vann:preferredNamespacePrefix "review-states" ;
+    vann:preferredNamespaceUri "http://ns.nature.com/review-states/" ;
+    a owl:Ontology, skos:ConceptScheme ;
+    owl:imports <http://ns.nature.com/terms/> ;
+    owl:versionInfo "1.9.45" ;
+    skos:definition "The ReviewStates Ontology is a categorization of the various states that mark the review status of a publication."@en ;
+    skos:prefLabel "ReviewStates Ontology"@en .
+
+review-states:accepted
+    npg:id "accepted" ;
+    a npg:ReviewState , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/review-states/> ;
+    skos:definition "The :accepted review-state is used to characterize events in which an article is accepted for publication by a journal."@en ;
+    skos:inScheme <http://ns.nature.com/review-states/> ;
+    skos:prefLabel "Accepted"@en ;
+    skos:topConceptOf <http://ns.nature.com/review-states/> .
+
+review-states:created
+    npg:id "created" ;
+    a npg:ReviewState , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/review-states/> ;
+    skos:definition "The :created review-state is used to characterize events in which an article (typically a news item) is created on an internal system for a journal."@en ;
+    skos:inScheme <http://ns.nature.com/review-states/> ;
+    skos:prefLabel "Created"@en ;
+    skos:topConceptOf <http://ns.nature.com/review-states/> .
+
+review-states:first-decision
+    npg:id "first-decision" ;
+    a npg:ReviewState , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/review-states/> ;
+    skos:definition "The :first-decision review-state is used to characterize events in which a first decision on an article is made by a journal."@en ;
+    skos:inScheme <http://ns.nature.com/review-states/> ;
+    skos:prefLabel "First Decision"@en ;
+    skos:topConceptOf <http://ns.nature.com/review-states/> .
+
+review-states:received
+    npg:id "received" ;
+    a npg:ReviewState , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/review-states/> ;
+    skos:definition "The :received review-state is used to characterize events in which an article is received by a journal."@en ;
+    skos:inScheme <http://ns.nature.com/review-states/> ;
+    skos:prefLabel "Received"@en ;
+    skos:topConceptOf <http://ns.nature.com/review-states/> .
+
+review-states:revised
+    npg:id "revised" ;
+    a npg:ReviewState , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/review-states/> ;
+    skos:definition "The :revised review-state is used to characterize events in which a revision to an article is received by a journal."@en ;
+    skos:inScheme <http://ns.nature.com/review-states/> ;
+    skos:prefLabel "Revised"@en ;
+    skos:topConceptOf <http://ns.nature.com/review-states/> .
+

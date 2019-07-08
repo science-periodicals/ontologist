@@ -1,0 +1,80 @@
+{
+  "name": "@scipe/ontologist",
+  "version": "0.0.0",
+  "description": "sci.pe ontology routes",
+  "preferGlobal": true,
+  "main": "dist/index.js",
+  "bin": {
+    "ontologist": "dist/bin/ontologist.js"
+  },
+  "scripts": {
+    "redis": "$(brew info redis | tail -1)",
+    "format": "prettier --single-quote --write \"{src,test}/**/*.js\"",
+    "pretest": "NODE_ENV=test ./scripts/seed.sh",
+    "init": "./scripts/seed.sh",
+    "test": "NODE_ENV=test mocha --require babel-core/register --exit",
+    "build": "rm -rf dist && node_modules/.bin/babel src --out-dir dist",
+    "prepublish": "npm run build",
+    "start": "node dist/server.js",
+    "postversion": "git push && git push --tags"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "8.11.1"
+          }
+        }
+      ]
+    ],
+    "plugins": [
+      "add-module-exports"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/science-periodicals/ontologist.git"
+  },
+  "keywords": [
+    "ontology",
+    "ontologies"
+  ],
+  "eslintConfig": {
+    "extends": "@scipe"
+  },
+  "author": "Sebastien Ballesteros",
+  "license": "See README.md",
+  "bugs": {
+    "url": "https://github.com/science-periodicals/ontologist/issues"
+  },
+  "homepage": "https://github.com/science-periodicals/ontologist#readme",
+  "dependencies": {
+    "@scipe/create-error": "^1.0.0",
+    "@scipe/express-logger": "^1.0.0",
+    "@scipe/librarian": "^1.0.0",
+    "async": "^2.6.2",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "is-url": "^1.2.4",
+    "lodash": "^4.17.11",
+    "natural": "0.5.4",
+    "yargs": "^13.2.4"
+  },
+  "devDependencies": {
+    "@scipe/eslint-config": "^1.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.2",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-preset-env": "^1.7.0",
+    "mocha": "^6.1.4",
+    "prettier": "^1.18.2",
+    "request": "^2.88.0"
+  }
+}

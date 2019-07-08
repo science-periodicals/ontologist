@@ -1,0 +1,854 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://ns.nature.com/subjects/achalasia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1713499>, <http://www.wikidata.org/entity/Q661015> .
+
+<http://ns.nature.com/subjects/acne-vulgaris>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q79928> .
+
+<http://ns.nature.com/subjects/acute-lymphocytic-leukaemia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q6708277> .
+
+<http://ns.nature.com/subjects/acute-myeloid-leukaemia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q264118> .
+
+<http://ns.nature.com/subjects/adhd>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q181923> .
+
+<http://ns.nature.com/subjects/adrenal-gland-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18558165> .
+
+<http://ns.nature.com/subjects/adrenal-tumours>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556128> .
+
+<http://ns.nature.com/subjects/ageing>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q332154> .
+
+<http://ns.nature.com/subjects/allergy>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q42982> .
+
+<http://ns.nature.com/subjects/alport-syndrome>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1331116> .
+
+<http://ns.nature.com/subjects/alzheimers-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q11081>, <http://www.wikidata.org/entity/Q5326566> .
+
+<http://ns.nature.com/subjects/amelogenesis-imperfecta>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q461854> .
+
+<http://ns.nature.com/subjects/amyotrophic-lateral-sclerosis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q206901> .
+
+<http://ns.nature.com/subjects/anaemia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18971596> .
+
+<http://ns.nature.com/subjects/anal-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556380>, <http://www.wikidata.org/entity/Q18556540> .
+
+<http://ns.nature.com/subjects/anal-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q484797> .
+
+<http://ns.nature.com/subjects/aneurism>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18968133> .
+
+<http://ns.nature.com/subjects/ankylosing-spondylitis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q52849> .
+
+<http://ns.nature.com/subjects/antiphospholipid-syndrome>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q582207> .
+
+<http://ns.nature.com/subjects/anus>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q2465231> .
+
+<http://ns.nature.com/subjects/anxiety>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q154430> .
+
+<http://ns.nature.com/subjects/aortic-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556675> .
+
+<http://ns.nature.com/subjects/asthma>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q35869> .
+
+<http://ns.nature.com/subjects/atherosclerosis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q12252367> .
+
+<http://ns.nature.com/subjects/atopic-dermatitis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q268667> .
+
+<http://ns.nature.com/subjects/atrial-fibrillation>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q815819> .
+
+<http://ns.nature.com/subjects/autoimmune-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q192360>, <http://www.wikidata.org/entity/Q8084905> .
+
+<http://ns.nature.com/subjects/autoimmune-hepatitis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q786844> .
+
+<http://ns.nature.com/subjects/bacterial-infection>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18553857> .
+
+<http://ns.nature.com/subjects/barretts-oesophagus>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q808892> .
+
+<http://ns.nature.com/subjects/basal-cell-carcinoma>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18975031>, <http://www.wikidata.org/entity/Q809758> .
+
+<http://ns.nature.com/subjects/bile-duct-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556396>, <http://www.wikidata.org/entity/Q18556531> .
+
+<http://ns.nature.com/subjects/bile-duct-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556206> .
+
+<http://ns.nature.com/subjects/biliary-tract-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556397> .
+
+<http://ns.nature.com/subjects/biliary-tract-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18558210> .
+
+<http://ns.nature.com/subjects/bipolar-disorder>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q131755>, <http://www.wikidata.org/entity/Q185935> .
+
+<http://ns.nature.com/subjects/bladder-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q504775> .
+
+<http://ns.nature.com/subjects/bladder-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18975557> .
+
+<http://ns.nature.com/subjects/bone-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554919> .
+
+<http://ns.nature.com/subjects/brain-injuries>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1995526>, <http://www.wikidata.org/entity/Q5463841> .
+
+<http://ns.nature.com/subjects/breast-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q128581>, <http://www.wikidata.org/entity/Q6742919> .
+
+<http://ns.nature.com/subjects/bruxism>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q994942> .
+
+<http://ns.nature.com/subjects/burning-mouth-syndrome>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18975840> .
+
+<http://ns.nature.com/subjects/calcium-and-phosphate-metabolic-disorders>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18553892> .
+
+<http://ns.nature.com/subjects/cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q12078> .
+
+<http://ns.nature.com/subjects/cardiomyopathies>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q847583> .
+
+<http://ns.nature.com/subjects/cardiovascular-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554392> .
+
+<http://ns.nature.com/subjects/carotid-artery-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18555923> .
+
+<http://ns.nature.com/subjects/cerebrovascular-disorders>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q12202> .
+
+<http://ns.nature.com/subjects/cervical-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q160105>, <http://www.wikidata.org/entity/Q18555233> .
+
+<http://ns.nature.com/subjects/cholecystitis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q376666> .
+
+<http://ns.nature.com/subjects/choledocholithiasis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554165> .
+
+<http://ns.nature.com/subjects/cholelithiasis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18553819> .
+
+<http://ns.nature.com/subjects/cholestasis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1075923> .
+
+<http://ns.nature.com/subjects/chronic-lymphocytic-leukaemia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1088156> .
+
+<http://ns.nature.com/subjects/chronic-myeloid-leukaemia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q729735> .
+
+<http://ns.nature.com/subjects/chronic-pancreatitis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1996053> .
+
+<http://ns.nature.com/subjects/cns-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556002>, <http://www.wikidata.org/entity/Q631904> .
+
+<http://ns.nature.com/subjects/coeliac-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q11088> .
+
+<http://ns.nature.com/subjects/colitis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q2453464> .
+
+<http://ns.nature.com/subjects/colon-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18555025>, <http://www.wikidata.org/entity/Q18555061> .
+
+<http://ns.nature.com/subjects/colonic-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556754> .
+
+<http://ns.nature.com/subjects/colorectal-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556932>, <http://www.wikidata.org/entity/Q188874> .
+
+<http://ns.nature.com/subjects/congenital-heart-defects>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18968094> .
+
+<http://ns.nature.com/subjects/conjunctival-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556249> .
+
+<http://ns.nature.com/subjects/connective-tissue-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q19000743> .
+
+<http://ns.nature.com/subjects/constipation>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q178436> .
+
+<http://ns.nature.com/subjects/corneal-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18553785> .
+
+<http://ns.nature.com/subjects/coronary-artery-disease-and-stable-angina>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q844935> .
+
+<http://ns.nature.com/subjects/crohns-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1472> .
+
+<http://ns.nature.com/subjects/cystic-fibrosis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q178194> .
+
+<http://ns.nature.com/subjects/dementia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18579>, <http://www.wikidata.org/entity/Q18592>, <http://www.wikidata.org/entity/Q83030> .
+
+<http://ns.nature.com/subjects/demyelinating-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18975379> .
+
+<http://ns.nature.com/subjects/dental-caries>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q133772> .
+
+<http://ns.nature.com/subjects/dental-pulp-necrosis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18966858> .
+
+<http://ns.nature.com/subjects/depression>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554849> .
+
+<http://ns.nature.com/subjects/diabetes-insipidus>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q220551> .
+
+<http://ns.nature.com/subjects/diarrhoea>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q40878> .
+
+<http://ns.nature.com/subjects/diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18975692> .
+
+<http://ns.nature.com/subjects/duodenal-ulcers>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18968110> .
+
+<http://ns.nature.com/subjects/dyslexia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q132971> .
+
+<http://ns.nature.com/subjects/dyspepsia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q653971> .
+
+<http://ns.nature.com/subjects/dysphagia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q3533161>, <http://www.wikidata.org/entity/Q3533214>, <http://www.wikidata.org/entity/Q623289> .
+
+<http://ns.nature.com/subjects/dystonia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q906492> .
+
+<http://ns.nature.com/subjects/end-stage-renal-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q19001015>, <http://www.wikidata.org/entity/Q736715> .
+
+<http://ns.nature.com/subjects/endocrine-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554878> .
+
+<http://ns.nature.com/subjects/endometrial-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q944777> .
+
+<http://ns.nature.com/subjects/epilepsy>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q41571> .
+
+<http://ns.nature.com/subjects/erectile-dysfunction>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q184674> .
+
+<http://ns.nature.com/subjects/eye-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q2420648> .
+
+<http://ns.nature.com/subjects/eye-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q19000590> .
+
+<http://ns.nature.com/subjects/eyelid-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556729> .
+
+<http://ns.nature.com/subjects/fabry-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q615645> .
+
+<http://ns.nature.com/subjects/faecal-incontinence>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1147182> .
+
+<http://ns.nature.com/subjects/fanconi-syndrome>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1179460> .
+
+<http://ns.nature.com/subjects/fever>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q38933> .
+
+<http://ns.nature.com/subjects/fibromyalgia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q540571> .
+
+<http://ns.nature.com/subjects/focal-segmental-glomerulosclerosis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1435223> .
+
+<http://ns.nature.com/subjects/fungal-infection>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18968038> .
+
+<http://ns.nature.com/subjects/gall-bladder-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q977787> .
+
+<http://ns.nature.com/subjects/gall-bladder-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q5518905> .
+
+<http://ns.nature.com/subjects/gastric-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q189588> .
+
+<http://ns.nature.com/subjects/gastritis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q183130> .
+
+<http://ns.nature.com/subjects/gastro-oesophageal-reflux-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q19001129>, <http://www.wikidata.org/entity/Q223591> .
+
+<http://ns.nature.com/subjects/gastroenteritis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18971565> .
+
+<http://ns.nature.com/subjects/gastroparesis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q943897> .
+
+<http://ns.nature.com/subjects/germ-cell-tumours>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18555254>, <http://www.wikidata.org/entity/Q18555285>, <http://www.wikidata.org/entity/Q18557394> .
+
+<http://ns.nature.com/subjects/gestational-diabetes>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q126691> .
+
+<http://ns.nature.com/subjects/gingival-recession>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18966765> .
+
+<http://ns.nature.com/subjects/glaucoma>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q159701> .
+
+<http://ns.nature.com/subjects/gonadal-disorders>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18555048> .
+
+<http://ns.nature.com/subjects/gout>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q133087> .
+
+<http://ns.nature.com/subjects/graft-versus-host-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1194520> .
+
+<http://ns.nature.com/subjects/gynaecological-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554220> .
+
+<http://ns.nature.com/subjects/haematological-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18975047> .
+
+<http://ns.nature.com/subjects/haematological-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q19000937> .
+
+<http://ns.nature.com/subjects/haemolytic-uremic-syndrome>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q162266> .
+
+<http://ns.nature.com/subjects/hairy-cell-leukaemia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q201299> .
+
+<http://ns.nature.com/subjects/head-and-neck-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1783924> .
+
+<http://ns.nature.com/subjects/heart-failure>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q181754>, <http://www.wikidata.org/entity/Q19000661> .
+
+<http://ns.nature.com/subjects/hepatic-encephalopathy>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554341>, <http://www.wikidata.org/entity/Q642548> .
+
+<http://ns.nature.com/subjects/hepatitis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q131742> .
+
+<http://ns.nature.com/subjects/hepatitis-b>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q6853> .
+
+<http://ns.nature.com/subjects/hepatitis-c>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q154869> .
+
+<http://ns.nature.com/subjects/hepatorenal-syndrome>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q247131> .
+
+<http://ns.nature.com/subjects/hiv-infections>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556697> .
+
+<http://ns.nature.com/subjects/hodgkin-lymphoma>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18557968>, <http://www.wikidata.org/entity/Q18557981>, <http://www.wikidata.org/entity/Q18557990>, <http://www.wikidata.org/entity/Q18557991>, <http://www.wikidata.org/entity/Q209369> .
+
+<http://ns.nature.com/subjects/huntingtons-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q190564> .
+
+<http://ns.nature.com/subjects/hydrocephalus>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554841>, <http://www.wikidata.org/entity/Q18967803>, <http://www.wikidata.org/entity/Q193003> .
+
+<http://ns.nature.com/subjects/hypertension>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q41861> .
+
+<http://ns.nature.com/subjects/hypogonadism>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q938107> .
+
+<http://ns.nature.com/subjects/hypospadias>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1132108> .
+
+<http://ns.nature.com/subjects/hypoxia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q105688> .
+
+<http://ns.nature.com/subjects/idiopathic-inflammatory-myopathies>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1433212> .
+
+<http://ns.nature.com/subjects/idiopathic-thrombocytopaenic-purpura>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q638729> .
+
+<http://ns.nature.com/subjects/iga-nephropathy>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1146454> .
+
+<http://ns.nature.com/subjects/immunological-deficiency-syndromes>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18557148> .
+
+<http://ns.nature.com/subjects/immunoproliferative-disorders>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18555235> .
+
+<http://ns.nature.com/subjects/infectious-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q131736> .
+
+<http://ns.nature.com/subjects/infertility>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q19000494> .
+
+<http://ns.nature.com/subjects/inflammatory-bowel-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18932784> .
+
+<http://ns.nature.com/subjects/influenza-virus>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q2840> .
+
+<http://ns.nature.com/subjects/interstitial-nephritis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18966470> .
+
+<http://ns.nature.com/subjects/intestinal-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556724> .
+
+<http://ns.nature.com/subjects/irritable-bowel-syndrome>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q838966> .
+
+<http://ns.nature.com/subjects/ischaemia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18555356> .
+
+<http://ns.nature.com/subjects/juvenile-idiopathic-arthritis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q861224> .
+
+<http://ns.nature.com/subjects/kidney-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1054718> .
+
+<http://ns.nature.com/subjects/lacrimal-apparatus-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1347256>, <http://www.wikidata.org/entity/Q18554657> .
+
+<http://ns.nature.com/subjects/lens-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18553990> .
+
+<http://ns.nature.com/subjects/leukaemia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q29496> .
+
+<http://ns.nature.com/subjects/leydig-cell-tumour>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18555162> .
+
+<http://ns.nature.com/subjects/lipid-storage-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18558131> .
+
+<http://ns.nature.com/subjects/listeria>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q160653> .
+
+<http://ns.nature.com/subjects/liver-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q623031> .
+
+<http://ns.nature.com/subjects/liver-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18975723> .
+
+<http://ns.nature.com/subjects/liver-fibrosis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556613> .
+
+<http://ns.nature.com/subjects/lung-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556020> .
+
+<http://ns.nature.com/subjects/lyme-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q201989> .
+
+<http://ns.nature.com/subjects/lymphoma>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q208414> .
+
+<http://ns.nature.com/subjects/lymphopaenia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q19000687> .
+
+<http://ns.nature.com/subjects/lymphoproliferative-disorders>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q8041558> .
+
+<http://ns.nature.com/subjects/macular-degeneration>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18553964>, <http://www.wikidata.org/entity/Q830308> .
+
+<http://ns.nature.com/subjects/malaria>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q12156> .
+
+<http://ns.nature.com/subjects/melanoma>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q180614> .
+
+<http://ns.nature.com/subjects/membranoproliferative-glomerulonephritis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q2299379> .
+
+<http://ns.nature.com/subjects/membranous-nephropathy>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1713037> .
+
+<http://ns.nature.com/subjects/meningitis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q48143> .
+
+<http://ns.nature.com/subjects/mesothelioma>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1077603>, <http://www.wikidata.org/entity/Q18555143> .
+
+<http://ns.nature.com/subjects/metabolic-disorders>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18550968> .
+
+<http://ns.nature.com/subjects/metabolic-syndrome>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q657193> .
+
+<http://ns.nature.com/subjects/migraine>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q133823> .
+
+<http://ns.nature.com/subjects/motor-neuron-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556517>, <http://www.wikidata.org/entity/Q18971552>, <http://www.wikidata.org/entity/Q2881413> .
+
+<http://ns.nature.com/subjects/movement-disorders>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556489>, <http://www.wikidata.org/entity/Q18558243> .
+
+<http://ns.nature.com/subjects/multiple-sclerosis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q8277> .
+
+<http://ns.nature.com/subjects/myelodysplastic-syndrome>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q954625> .
+
+<http://ns.nature.com/subjects/myeloma>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q467635> .
+
+<http://ns.nature.com/subjects/myocardial-infarction>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q12152> .
+
+<http://ns.nature.com/subjects/nephritis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18966578> .
+
+<http://ns.nature.com/subjects/nephrosclerosis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554141> .
+
+<http://ns.nature.com/subjects/neural-tube-defects>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q548213> .
+
+<http://ns.nature.com/subjects/neurodegenerative-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18967382> .
+
+<http://ns.nature.com/subjects/neuroendocrine-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1981276> .
+
+<http://ns.nature.com/subjects/neurogenic-bladder>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q2339038> .
+
+<http://ns.nature.com/subjects/neurological-disorders>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q19001155> .
+
+<http://ns.nature.com/subjects/neuromuscular-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18975878> .
+
+<http://ns.nature.com/subjects/neurotoxicity-syndromes>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18975539> .
+
+<http://ns.nature.com/subjects/non-hodgkin-lymphoma>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1138590>, <http://www.wikidata.org/entity/Q18557965>, <http://www.wikidata.org/entity/Q18557998> .
+
+<http://ns.nature.com/subjects/non-small-cell-lung-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556113> .
+
+<http://ns.nature.com/subjects/nutrition-disorders>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556052> .
+
+<http://ns.nature.com/subjects/obesity>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q12174> .
+
+<http://ns.nature.com/subjects/ocular-hypertension>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q9294051> .
+
+<http://ns.nature.com/subjects/ocular-motility-disorders>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18553823>, <http://www.wikidata.org/entity/Q18554378>, <http://www.wikidata.org/entity/Q203696> .
+
+<http://ns.nature.com/subjects/oedema>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q152234>, <http://www.wikidata.org/entity/Q486485> .
+
+<http://ns.nature.com/subjects/oesophageal-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q372701> .
+
+<http://ns.nature.com/subjects/oesophageal-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q19000669> .
+
+<http://ns.nature.com/subjects/oesophagitis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q298230> .
+
+<http://ns.nature.com/subjects/optic-nerve-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554793>, <http://www.wikidata.org/entity/Q18554926> .
+
+<http://ns.nature.com/subjects/osteoarthritis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q62736> .
+
+<http://ns.nature.com/subjects/osteogenesis-imperfecta>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q749409> .
+
+<http://ns.nature.com/subjects/osteopetrosis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1755568> .
+
+<http://ns.nature.com/subjects/osteoporosis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q165328> .
+
+<http://ns.nature.com/subjects/ovarian-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q172341> .
+
+<http://ns.nature.com/subjects/pagets-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q2035074> .
+
+<http://ns.nature.com/subjects/pancreatic-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q212961> .
+
+<http://ns.nature.com/subjects/pancreatic-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18555130> .
+
+<http://ns.nature.com/subjects/pancreatitis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1527888> .
+
+<http://ns.nature.com/subjects/parasitic-infection>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1601794> .
+
+<http://ns.nature.com/subjects/parathyroid-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554032> .
+
+<http://ns.nature.com/subjects/parkinsons-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q11085> .
+
+<http://ns.nature.com/subjects/penile-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554121> .
+
+<http://ns.nature.com/subjects/peptic-ulcers>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18557613> .
+
+<http://ns.nature.com/subjects/periodontitis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q520127> .
+
+<http://ns.nature.com/subjects/peripheral-neuropathies>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556979> .
+
+<http://ns.nature.com/subjects/phosphorus-metabolism-disorders>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18555096> .
+
+<http://ns.nature.com/subjects/pituitary-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q19000515> .
+
+<http://ns.nature.com/subjects/pituitary-tumours>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554902>, <http://www.wikidata.org/entity/Q18556544>, <http://www.wikidata.org/entity/Q864296> .
+
+<http://ns.nature.com/subjects/polycystic-ovary-syndrome>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q500816> .
+
+<http://ns.nature.com/subjects/portal-hypertension>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q124604> .
+
+<http://ns.nature.com/subjects/post-traumatic-stress-disorder>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q202387> .
+
+<http://ns.nature.com/subjects/pre-eclampsia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q2421435> .
+
+<http://ns.nature.com/subjects/primary-biliary-cirrhosis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1072420> .
+
+<http://ns.nature.com/subjects/prion-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q703961> .
+
+<http://ns.nature.com/subjects/prostate-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q181257> .
+
+<http://ns.nature.com/subjects/prostatic-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556445> .
+
+<http://ns.nature.com/subjects/prostatitis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q372752> .
+
+<http://ns.nature.com/subjects/psoriasis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q179945>, <http://www.wikidata.org/entity/Q4676432> .
+
+<http://ns.nature.com/subjects/psoriatic-arthritis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q511097> .
+
+<http://ns.nature.com/subjects/psychosis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q2914688>, <http://www.wikidata.org/entity/Q834047> .
+
+<http://ns.nature.com/subjects/pulpitis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q932843> .
+
+<http://ns.nature.com/subjects/pupil-disorders>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18555067> .
+
+<http://ns.nature.com/subjects/raynauds-phenomenon>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1053824> .
+
+<http://ns.nature.com/subjects/rectal-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554955>, <http://www.wikidata.org/entity/Q18968224> .
+
+<http://ns.nature.com/subjects/refractive-errors>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q19001399> .
+
+<http://ns.nature.com/subjects/renal-artery-stenosis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18555248> .
+
+<http://ns.nature.com/subjects/renal-calculi>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q178623> .
+
+<http://ns.nature.com/subjects/renal-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q3242950> .
+
+<http://ns.nature.com/subjects/renal-cell-carcinoma>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1164529>, <http://www.wikidata.org/entity/Q18556338>, <http://www.wikidata.org/entity/Q18556340>, <http://www.wikidata.org/entity/Q18556342>, <http://www.wikidata.org/entity/Q18556345>, <http://www.wikidata.org/entity/Q18975905> .
+
+<http://ns.nature.com/subjects/renovascular-hypertension>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q3296793> .
+
+<http://ns.nature.com/subjects/retinal-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556937> .
+
+<http://ns.nature.com/subjects/retinopathy-of-prematurity>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1423087> .
+
+<http://ns.nature.com/subjects/rheumatic-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554877> .
+
+<http://ns.nature.com/subjects/rheumatoid-arthritis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q187255> .
+
+<http://ns.nature.com/subjects/sarcoma>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18975788>, <http://www.wikidata.org/entity/Q5383708> .
+
+<http://ns.nature.com/subjects/schizophrenia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q41112> .
+
+<http://ns.nature.com/subjects/scleral-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554064> .
+
+<http://ns.nature.com/subjects/sepsis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q183134> .
+
+<http://ns.nature.com/subjects/septic-arthritis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q924421> .
+
+<http://ns.nature.com/subjects/sertoli-cell-tumour>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18555983> .
+
+<http://ns.nature.com/subjects/severe-combined-immunodeficiency>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1334408>, <http://www.wikidata.org/entity/Q18557017>, <http://www.wikidata.org/entity/Q4860308> .
+
+<http://ns.nature.com/subjects/sjogrens-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554394>, <http://www.wikidata.org/entity/Q335555> .
+
+<http://ns.nature.com/subjects/skin-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18555315>, <http://www.wikidata.org/entity/Q192102> .
+
+<http://ns.nature.com/subjects/skin-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556032> .
+
+<http://ns.nature.com/subjects/sleep-disorders>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q177190> .
+
+<http://ns.nature.com/subjects/small-cell-lung-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q19000544> .
+
+<http://ns.nature.com/subjects/spinal-cord-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18555326> .
+
+<http://ns.nature.com/subjects/spinocerebellar-ataxia>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q899726> .
+
+<http://ns.nature.com/subjects/squamous-cell-carcinoma>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18554891>, <http://www.wikidata.org/entity/Q681817> .
+
+<http://ns.nature.com/subjects/stomach-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q13164360> .
+
+<http://ns.nature.com/subjects/stroke>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q12202>, <http://www.wikidata.org/entity/Q7514772> .
+
+<http://ns.nature.com/subjects/systemic-lupus-erythematosus>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1485> .
+
+<http://ns.nature.com/subjects/systemic-sclerosis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q5340515> .
+
+<http://ns.nature.com/subjects/testicular-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q324464> .
+
+<http://ns.nature.com/subjects/thrombotic-thrombocytopaenic-purpura>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1426491> .
+
+<http://ns.nature.com/subjects/thyroid-cancer>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556131>, <http://www.wikidata.org/entity/Q2292945>, <http://www.wikidata.org/entity/Q2465347>, <http://www.wikidata.org/entity/Q3493538>, <http://www.wikidata.org/entity/Q5464665> .
+
+<http://ns.nature.com/subjects/thyroid-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556580> .
+
+<http://ns.nature.com/subjects/tooth-erosion>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18555101> .
+
+<http://ns.nature.com/subjects/tuberculosis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q12204> .
+
+<http://ns.nature.com/subjects/type-1-diabetes-mellitus>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q124407>, <http://www.wikidata.org/entity/Q19001377> .
+
+<http://ns.nature.com/subjects/type-2-diabetes-mellitus>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18558108>, <http://www.wikidata.org/entity/Q3025883>, <http://www.wikidata.org/entity/Q663041> .
+
+<http://ns.nature.com/subjects/ulcerative-colitis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q1477> .
+
+<http://ns.nature.com/subjects/unstable-angina>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q2032041> .
+
+<http://ns.nature.com/subjects/urethral-neoplasms>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18557544> .
+
+<http://ns.nature.com/subjects/urinary-tract-infection>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q221668> .
+
+<http://ns.nature.com/subjects/uveal-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18555950> .
+
+<http://ns.nature.com/subjects/valvular-disease>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18556191> .
+
+<http://ns.nature.com/subjects/varices>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q201180> .
+
+<http://ns.nature.com/subjects/vascular-diseases>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18968133> .
+
+<http://ns.nature.com/subjects/vasculitis>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q644318> .
+
+<http://ns.nature.com/subjects/vision-disorders>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q2354624> .
+
+<http://ns.nature.com/subjects/vitiligo>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q180152> .
+
+<http://ns.nature.com/subjects/vitreous-detachment>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18558203> .
+
+<http://ns.nature.com/subjects/vomiting>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q127076> .
+
+<http://ns.nature.com/subjects/wilms-tumour>
+    <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.wikidata.org/entity/Q18555017>, <http://www.wikidata.org/entity/Q756289> .
+

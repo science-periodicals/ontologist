@@ -1,0 +1,3820 @@
+@prefix :            <http://ns.nature.com/terms/> .
+@prefix bibo:        <http://purl.org/ontology/bibo/> .
+@prefix dc:          <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms:     <http://purl.org/dc/terms/> .
+@prefix foaf:        <http://xmlns.com/foaf/0.1/> .
+@prefix npg:         <http://ns.nature.com/terms/> .
+@prefix npgd:        <http://ns.nature.com/datasets/> .
+@prefix npgg:        <http://ns.nature.com/graphs/> .
+@prefix owl:         <http://www.w3.org/2002/07/owl#> .
+@prefix prism:       <http://prismstandard.org/namespaces/basic/2.1/> .
+@prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:        <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:        <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann:        <http://purl.org/vocab/vann/> .
+@prefix xsd:         <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix journals: <http://ns.nature.com/journals/> .
+
+journals:
+    npg:webpage <http://www.nature.com/ontologies/models/journals/> ;
+    dc:date "2015-08-17T06:12:02.677-04:00" ;
+    dc:publisher "Macmillan Publishers Limited" ;
+    dc:rights "This work is distributed under a Creative Commons Zero 1.0 (CC0 1.0) Public Domain Dedication <http://creativecommons.org/publicdomain/zero/1.0/>."@en ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    vann:preferredNamespacePrefix "journals" ;
+    vann:preferredNamespaceUri "http://ns.nature.com/journals/" ;
+    a owl:Ontology, skos:ConceptScheme ;
+    owl:imports <http://ns.nature.com/terms/> ;
+    owl:versionInfo "1.9.45" ;
+    skos:definition "The Journals Ontology is the master catalogue of journals from Macmillan Science and Education, including the Nature Publishing Group and Palgrave Macmillan imprints."@en ;
+    skos:note "For further information about this ontology or for any queries please use the contact address <mailto:developers@nature.com>."@en ;
+    skos:prefLabel "Journals Ontology"@en .
+
+journals:abm
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "abm" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2002"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2002-05"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1476-9328" ;
+    bibo:issn "1472-4782" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Asian Business & Management"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/abm> .
+
+journals:ajcs
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "ajcs" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2013"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2013-02"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2049-7113" ;
+    bibo:issn "2049-7121" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "American Journal of Cultural Sociology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/ajcs> .
+
+journals:ajg
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ajg" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1998"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1998-01"^^xsd:gYearMonth ;
+    npg:volumeStart "93" ;
+    bibo:eissn "1572-0241" ;
+    bibo:issn "0002-9270" ;
+    bibo:shortTitle "Am J Gastroenterol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "The American Journal of Gastroenterology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ajg> .
+
+journals:ajgsup
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ajgsup" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2012"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2012-07"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1948-9501" ;
+    bibo:issn "1948-9498" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "The American Journal of Gastroenterology Supplements"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ajgsup> .
+
+journals:ajp
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "ajp" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2007"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2007-02"^^xsd:gYearMonth ;
+    npg:volumeStart "67" ;
+    bibo:issn "0002-9548" ;
+    bibo:shortTitle "Am J Psychoanal" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "American Journal of Psychoanalysis"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/ajp> .
+
+journals:am
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "am" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2009"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2009-07"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1884-4057" ;
+    bibo:issn "1884-4049" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "NPG Asia Materials"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/am> .
+
+journals:ap
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "ap" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2003"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2003-06"^^xsd:gYearMonth ;
+    npg:volumeStart "38" ;
+    bibo:eissn "1741-1416" ;
+    bibo:issn "0001-6810" ;
+    bibo:shortTitle "Acta Polit" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Acta Politica"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/ap> .
+
+journals:aps
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "aps" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-01"^^xsd:gYearMonth ;
+    npg:volumeStart "26" ;
+    bibo:eissn "1745-7254" ;
+    bibo:issn "1671-4083" ;
+    bibo:shortTitle "Acta Pharmacol Sin" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Acta Pharmacologica Sinica"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/aps> .
+
+journals:bcj
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "bcj" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2011"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2011-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:issn "2044-5385" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Blood Cancer Journal"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/bcj> .
+
+journals:bdj
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "bdj" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1999"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1999-01"^^xsd:gYearMonth ;
+    npg:volumeStart "186" ;
+    bibo:eissn "1476-5373" ;
+    bibo:issn "0007-0610" ;
+    bibo:shortTitle "Br Dent J" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "British Dental Journal"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/bdj> .
+
+journals:bdjopen
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "bdjopen" ;
+    npg:publicationStartYear "2015"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2015-06"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2056-807X" ;
+    a npg:Journal , skos:Concept ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "BDJ Open"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/bdjopen> .
+
+journals:bdjteam
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "bdjteam" ;
+    npg:publicationStartYear "2014"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2014-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2054-7617" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "BDJ Team"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/bdjteam> .
+
+journals:be
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "be" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-01"^^xsd:gYearMonth ;
+    npg:volumeStart "40" ;
+    bibo:eissn "1554-432X" ;
+    bibo:issn "0007-666X" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Business Economics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/be> .
+
+journals:bioent
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "bioent" ;
+    npg:publicationStartYear "2003"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2003-01"^^xsd:gYearMonth ;
+    bibo:issn "1542-6572" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Bioentrepeneur"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/bioent> .
+
+journals:biosoc
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "biosoc" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2006"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2006-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1745-8560" ;
+    bibo:issn "1745-8552" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "BioSocieties"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/biosoc> .
+
+journals:bjc
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "bjc" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1998"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1998-01"^^xsd:gYearMonth ;
+    npg:volumeStart "79" ;
+    bibo:eissn "1532-1827" ;
+    bibo:issn "0007-0920" ;
+    bibo:shortTitle "Brit J Cancer" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "British Journal of Cancer"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/bjc> .
+
+journals:bm
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "bm" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2000"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2000-09"^^xsd:gYearMonth ;
+    npg:volumeStart "8" ;
+    bibo:eissn "1479-1803" ;
+    bibo:issn "1350-231X" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Brand Management"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/bm> .
+
+journals:bmt
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "bmt" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1997"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1997-01"^^xsd:gYearMonth ;
+    npg:volumeStart "19" ;
+    bibo:eissn "1476-5365" ;
+    bibo:issn "0268-3369" ;
+    bibo:shortTitle "Bone Marrow Transpl" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Bone Marrow Transplantation"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/bmt> .
+
+journals:bonekey
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "bonekey" ;
+    npg:issueStart "5" ;
+    npg:publicationStartYear "2004"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2004-05"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1940-8692" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "IBMS BoneKEy"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/bonekey> .
+
+journals:bonekeyreports
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "bonekeyreports" ;
+    npg:issueStart "2" ;
+    npg:publicationStartYear "2012"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2012-02"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2047-6396" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "BoneKEy Reports"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/bonekey> .
+
+journals:boneres
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "boneres" ;
+    npg:publicationStartYear "2014"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2014-04"^^xsd:gYearMonth ;
+    npg:volumeStart "2" ;
+    bibo:eissn "2095-6231" ;
+    bibo:issn "2095-4700" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Bone Research"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/boneres> .
+
+journals:bp
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "bp" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2006"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2006-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1746-9198" ;
+    bibo:issn "1746-918X" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "British Politics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/bp> .
+
+journals:cdd
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "cdd" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1997"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1997-01"^^xsd:gYearMonth ;
+    npg:volumeStart "4" ;
+    bibo:eissn "1476-5403" ;
+    bibo:issn "1350-9047" ;
+    bibo:shortTitle "Cell Death Differ" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Cell Death and Differentiation"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/cdd> .
+
+journals:cddis
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "cddis" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2010"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2010-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2041-4889" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Cell Death & Disease"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/cddis> .
+
+journals:cddiscovery
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "cddiscovery" ;
+    npg:publicationStartYear "2015"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2015-07"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2058-7716" ;
+    a npg:Journal , skos:Concept ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Cell Death Discovery"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/cddiscovery> .
+
+journals:celldisc
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "celldisc" ;
+    npg:publicationStartYear "2015"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2015-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2056-5968" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Cell Discovery"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/celldisc> .
+
+journals:cep
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "cep" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2003"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2003-04"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1470-388X" ;
+    bibo:issn "1472-4790" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Comparative European Politics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/cep> .
+
+journals:ces
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "ces" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1991"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1991-04"^^xsd:gYearMonth ;
+    npg:volumeStart "33" ;
+    bibo:eissn "1478-3320" ;
+    bibo:issn "0888-7233" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Comparative Economic Studies"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/ces> .
+
+journals:cgt
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "cgt" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1999"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1999-01"^^xsd:gYearMonth ;
+    npg:volumeStart "6" ;
+    bibo:eissn "1476-5500" ;
+    bibo:issn "0929-1903" ;
+    bibo:shortTitle "Cancer Gene Ther" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Cancer Gene Therapy"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/cgt> .
+
+journals:climate
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "climate" ;
+    npg:publicationStartYear "2007"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2007-06"^^xsd:gYearMonth ;
+    bibo:eissn "1753-9315" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reports Climate Change"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/climate> .
+
+journals:cmi
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "cmi" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2008"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2008-02"^^xsd:gYearMonth ;
+    npg:volumeStart "5" ;
+    bibo:eissn "2042-0226" ;
+    bibo:issn "1672-7681" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Cellular & Molecular Immunology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/cmi> .
+
+journals:cpcs
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "cpcs" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1999"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1999-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1743-4629" ;
+    bibo:issn "1460-3780" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Crime Prevention and Community Safety"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/cpcs> .
+
+journals:cpt
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "cpt" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1980"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1980-01"^^xsd:gYearMonth ;
+    npg:volumeStart "27" ;
+    bibo:eissn "1476-9336" ;
+    bibo:issn "1470-8914" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Contemporary Political Theory"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/cpt> .
+
+journals:cr
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "cr" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1999"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1999-03"^^xsd:gYearMonth ;
+    npg:volumeStart "9" ;
+    bibo:eissn "1748-7838" ;
+    bibo:issn "1001-0602" ;
+    bibo:shortTitle "Cell Res" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Cell Research"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/cr> .
+
+journals:crr
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "crr" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1997"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1997-07"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1479-1889" ;
+    bibo:issn "1363-3589" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Corporate Reputation Review"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/crr> .
+
+journals:ctg
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ctg" ;
+    npg:issueStart "10" ;
+    npg:publicationStartYear "2010"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2010-10"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:issn "2155-384X" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Clinical and Translational Gastroenterology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ctg> .
+
+journals:cti
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "cti" ;
+    npg:issueStart "11" ;
+    npg:publicationStartYear "2012"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2012-11"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2050-0068" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Clinical & Translational Immunology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/cti> .
+
+journals:dam
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "dam" ;
+    npg:issueEnd "6" ;
+    npg:issueStart "1" ;
+    npg:publicationEndYear "2010"^^xsd:gYear ;
+    npg:publicationEndYearMonth "2010-12"^^xsd:gYearMonth ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-01"^^xsd:gYearMonth ;
+    npg:volumeEnd "6" ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1743-6559" ;
+    bibo:issn "1743-6540" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Digital Asset Management"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/dam> .
+
+journals:dbm
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "dbm" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2000"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2000-08"^^xsd:gYearMonth ;
+    npg:volumeStart "8" ;
+    bibo:eissn "1741-2447" ;
+    bibo:issn "1741-2439" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Database Marketing and Customer Strategy Management"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/dbm> .
+
+journals:dddmp
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "dddmp" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1999"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1999-07"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1746-0174" ;
+    bibo:issn "1746-0166" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Direct, Data and Digital Marketing Practice"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/dddmp> .
+
+journals:development
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "development" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1999"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1999-03"^^xsd:gYearMonth ;
+    npg:volumeStart "42" ;
+    bibo:eissn "1461-7072" ;
+    bibo:issn "1011-6370" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Development"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/development> .
+
+journals:dutr
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "dutr" ;
+    npg:issueEnd "4" ;
+    npg:issueStart "1" ;
+    npg:publicationEndYear "2007"^^xsd:gYear ;
+    npg:publicationEndYearMonth "2007-02"^^xsd:gYearMonth ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-06"^^xsd:gYearMonth ;
+    npg:replacedBy journals:jdhf ;
+    npg:volumeEnd "12" ;
+    npg:volumeStart "11" ;
+    bibo:eissn "1747-4426" ;
+    bibo:issn "1357-0927" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Derivatives Use, Trading & Regulation"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/dutr> .
+
+journals:ebd
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ebd" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1998"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1998-11"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1476-5446" ;
+    bibo:issn "1462-0049" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Evidence-Based Dentistry"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ebd> .
+
+journals:eej
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "eej" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2007"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2007-01"^^xsd:gYearMonth ;
+    npg:volumeStart "33" ;
+    bibo:eissn "1939-4632" ;
+    bibo:issn "0094-5056" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Eastern Economic Journal"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/eej> .
+
+journals:ejcn
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ejcn" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1997"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1997-01"^^xsd:gYearMonth ;
+    npg:volumeStart "51" ;
+    bibo:eissn "1476-5640" ;
+    bibo:issn "0954-3007" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "European Journal of Clinical Nutrition"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ejcn> .
+
+journals:ejdr
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "ejdr" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1989"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1989-06"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1743-9728" ;
+    bibo:issn "0957-8811" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "The European Journal of Development Research"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/ejdr> .
+
+journals:ejhg
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ejhg" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1998"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1998-01"^^xsd:gYearMonth ;
+    npg:volumeStart "6" ;
+    bibo:eissn "1476-5438" ;
+    bibo:issn "1018-4813" ;
+    bibo:shortTitle "Eur J Hum Genet" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "European Journal of Human Genetics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ejhg> .
+
+journals:ejis
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "ejis" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1991"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1991-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1476-9344" ;
+    bibo:issn "0960-085X" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "European Journal of Information Systems"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/ejis> .
+
+journals:elmr
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "elmr" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2007"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2007-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:issn "1751-8326" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Economic & Labour Market Review"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/elmr> .
+
+journals:emi
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "emi" ;
+    npg:issueStart "7" ;
+    npg:publicationStartYear "2012"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2012-07"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2222-1751" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Emerging Microbes & Infections"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/emi> .
+
+journals:emm
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "emm" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2013"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2013-01"^^xsd:gYearMonth ;
+    npg:volumeStart "45" ;
+    bibo:eissn "2092-6413" ;
+    bibo:issn "1226-3613" ;
+    bibo:shortTitle "Exp Mol Med" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Experimental & Molecular Medicine"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/emm> .
+
+journals:eps
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "eps" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2001"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2001-09"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1682-0983" ;
+    bibo:issn "1680-4333" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "European Political Science"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/eps> .
+
+journals:eye
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "eye" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2002"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2002-01"^^xsd:gYearMonth ;
+    npg:volumeStart "16" ;
+    bibo:eissn "1476-5454" ;
+    bibo:issn "0950-222X" ;
+    bibo:shortTitle "Eye" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Eye"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/eye> .
+
+journals:fp
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "fp" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2003"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2003-02"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1476-3427" ;
+    bibo:issn "1476-3419" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "French Politics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/fp> .
+
+journals:fr
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "fr" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1979"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1979-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1466-4380" ;
+    bibo:issn "0141-7789" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Feminist Review"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/fr> .
+
+journals:fs
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "fs" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2009"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2009-01"^^xsd:gYearMonth ;
+    npg:volumeStart "561" ;
+    bibo:issn "0015-203X" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Financial Statistics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/fs> .
+
+journals:fsm
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "fsm" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2000"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2000-09"^^xsd:gYearMonth ;
+    npg:volumeStart "5" ;
+    bibo:eissn "1479-1846" ;
+    bibo:issn "1363-0539" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Financial Services Marketing"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/fsm> .
+
+journals:gene
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "gene" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1999"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1999-09"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1476-5470" ;
+    bibo:issn "1466-4879" ;
+    bibo:shortTitle "Genes Immun" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Genes and Immunity"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/gene> .
+
+journals:gim
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "gim" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1998"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1998-11"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1530-0366" ;
+    bibo:issn "1098-3600" ;
+    bibo:shortTitle "Genet Med" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Genetics in Medicine"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/gim> .
+
+journals:gpp
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "gpp" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1976"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1976-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1468-0440" ;
+    bibo:issn "1018-5895" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "The Geneva Papers"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/gpp> .
+
+journals:grir
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "grir" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1976"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1976-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1554-9658" ;
+    bibo:issn "1554-964X" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "The Geneva Risk and Insurance Review"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/grir> .
+
+journals:gt
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "gt" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1997"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1997-01"^^xsd:gYearMonth ;
+    npg:volumeStart "4" ;
+    bibo:eissn "1476-5462" ;
+    bibo:issn "0969-7128" ;
+    bibo:shortTitle "Gene Ther" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Gene Therapy"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/gt> .
+
+journals:hdy
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "hdy" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1947"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1947-07"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1365-2540" ;
+    bibo:issn "0018-067X" ;
+    bibo:shortTitle "Heredity" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Heredity"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/hdy> .
+
+journals:hep
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "hep" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1988"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1988-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1740-3863" ;
+    bibo:issn "0952-8733" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Higher Education Policy"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/hep> .
+
+journals:hgv
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "hgv" ;
+    npg:publicationStartYear "2014"^^xsd:gYear ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2054-345X" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Human Genome Variation"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/hgv> .
+
+journals:hortres
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "hortres" ;
+    npg:publicationStartYear "2014"^^xsd:gYear ;
+    bibo:eissn "2052-7276" ;
+    bibo:shortTitle "Hortic Res" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Horticulture Research"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/hortres> .
+
+journals:hr
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "hr" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-01"^^xsd:gYearMonth ;
+    npg:volumeStart "28" ;
+    bibo:eissn "1348-4214" ;
+    bibo:issn "0916-9636" ;
+    bibo:shortTitle "Hypertens Res" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Hypertension Research"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/hr> .
+
+journals:hs
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "hs" ;
+    bibo:eissn "2047-6973" ;
+    bibo:issn "2047-6965" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Health Systems"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/hs> .
+
+journals:hsq
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "hsq" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2009"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2009-02"^^xsd:gYearMonth ;
+    npg:volumeStart "41" ;
+    bibo:issn "1465-1645" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Health Statistics Quarterly"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/hsq> .
+
+journals:iaor
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "iaor" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1988"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1988-01"^^xsd:gYearMonth ;
+    npg:volumeStart "39" ;
+    bibo:eissn "1476-9352" ;
+    bibo:issn "0020-580X" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "International Abstracts in Operations Research"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/iaor> .
+
+journals:icb
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "icb" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1924"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1924-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1440-1711" ;
+    bibo:issn "0818-9641" ;
+    bibo:shortTitle "Immunol Cell Biol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Immunology and Cell Biology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/icb> .
+
+journals:iga
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "iga" ;
+    bibo:eissn "2047-7422" ;
+    bibo:issn "2047-7414" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Interest Groups & Advocacy"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/iga> .
+
+journals:ijea
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "ijea" ;
+    npg:issueEnd "4" ;
+    npg:issueStart "1" ;
+    npg:publicationEndYear "2011"^^xsd:gYear ;
+    npg:publicationEndYearMonth "2011-04"^^xsd:gYearMonth ;
+    npg:publicationStartYear "2003"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2003-06"^^xsd:gYearMonth ;
+    npg:volumeEnd "10" ;
+    npg:volumeStart "4" ;
+    bibo:eissn "1744-6511" ;
+    bibo:issn "1744-6503" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "International Journal of Educational Advancement"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/ijea> .
+
+journals:ijir
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ijir" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1997"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1997-03"^^xsd:gYearMonth ;
+    npg:volumeStart "9" ;
+    bibo:eissn "1476-5489" ;
+    bibo:issn "0955-9930" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "International Journal of Impotence Research"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ijir> .
+
+journals:ijo
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ijo" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1997"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1997-01"^^xsd:gYearMonth ;
+    npg:volumeStart "21" ;
+    bibo:eissn "1476-5497" ;
+    bibo:issn "0307-0565" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "International Journal of Obesity"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ijo> .
+
+journals:ijos
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ijos" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2009"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2009-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2049-3169" ;
+    bibo:issn "1674-2818" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "International Journal of Oral Science"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ijos> .
+
+journals:ijosup
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ijosup" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2011"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2011-09"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2046-2174" ;
+    bibo:issn "2046-2166" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "International Journal of Obesity Supplements"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ijosup> .
+
+journals:imfer
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "imfer" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1951"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1951-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2041-417X" ;
+    bibo:issn "2041-4161" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "IMF Economic Review"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/imfer> .
+
+journals:imfsp
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "imfsp" ;
+    npg:issueEnd "2" ;
+    npg:issueStart "1" ;
+    npg:publicationEndYear "2010"^^xsd:gYear ;
+    npg:publicationEndYearMonth "2010-06"^^xsd:gYearMonth ;
+    npg:publicationStartYear "2007"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2007-05"^^xsd:gYearMonth ;
+    npg:volumeEnd "57" ;
+    npg:volumeStart "54" ;
+    bibo:eissn "1564-5150" ;
+    bibo:issn "1020-7635" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "International Monetary Fund Staff Papers"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/imfsp> .
+
+journals:ip
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "ip" ;
+    npg:issueStart "3" ;
+    npg:publicationStartYear "2000"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2000-09"^^xsd:gYearMonth ;
+    npg:volumeStart "37" ;
+    bibo:eissn "1740-3898" ;
+    bibo:issn "1384-5748" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "International Politics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/ip> .
+
+journals:ipr
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "ipr" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2013"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2013-06"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2050-2990" ;
+    bibo:issn "2050-2982" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "International Politics Reviews"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/ipr> .
+
+journals:ismej
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ismej" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2007"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2007-05"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1751-7370" ;
+    bibo:issn "1751-7362" ;
+    bibo:shortTitle "ISME J" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "The ISME Journal"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ismej> .
+
+journals:ja
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ja" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-01"^^xsd:gYearMonth ;
+    npg:volumeStart "58" ;
+    bibo:eissn "1881-1469" ;
+    bibo:issn "0021-8820" ;
+    bibo:shortTitle "J Antibiot" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "The Journal of Antibiotics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ja> .
+
+journals:jam
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "jam" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2000"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2000-07"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1479-179X" ;
+    bibo:issn "1470-8272" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Asset Management"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/jam> .
+
+journals:jba
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "jba" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-02"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1744-9545" ;
+    bibo:issn "1742-8262" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Building Appraisal"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/jba> .
+
+journals:jbr
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "jbr" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2001"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2001-08"^^xsd:gYearMonth ;
+    npg:volumeStart "3" ;
+    bibo:eissn "1750-2071" ;
+    bibo:issn "1745-6452" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Banking Regulation"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/jbr> .
+
+journals:jcb
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "jcb" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2002"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2002-09"^^xsd:gYearMonth ;
+    npg:volumeStart "9" ;
+    bibo:eissn "1478-565X" ;
+    bibo:issn "1462-8732" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Commercial Biotechnology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/jcb> .
+
+journals:jcbfm
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "jcbfm" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1996"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1996-01"^^xsd:gYearMonth ;
+    npg:volumeStart "16" ;
+    bibo:eissn "1559-7016" ;
+    bibo:issn "0271-678X" ;
+    bibo:shortTitle "J Cereb Blood F Met" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Cerebral Blood Flow & Metabolism"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/jcbfm> .
+
+journals:jdg
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "jdg" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2003"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2003-12"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1746-6539" ;
+    bibo:issn "1741-3591" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "International Journal of Disclosure and Governance"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/jdg> .
+
+journals:jdhf
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "jdhf" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-06"^^xsd:gYearMonth ;
+    npg:replaces journals:dutr ;
+    npg:volumeStart "11" ;
+    bibo:eissn "1753-965X" ;
+    bibo:issn "1753-9641" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Derivatives and Hedge Funds"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/jdhf> .
+
+journals:jea
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "jea" ;
+    npg:replacedBy journals:jes ;
+    bibo:eissn "1476-5519" ;
+    bibo:issn "1053-4245" ;
+    bibo:shortTitle "J Expo Anal Env Epid" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Exposure Analysis and Environmental Epidemiology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/jes> .
+
+journals:jes
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "jes" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1999"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1999-02"^^xsd:gYearMonth ;
+    npg:replaces journals:jea ;
+    npg:volumeStart "9" ;
+    bibo:eissn "1476-5519" ;
+    bibo:issn "1559-0631" ;
+    bibo:shortTitle "J Expo Sci Env Epid" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Exposure Science and Environmental Epidemiology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/jes> .
+
+journals:jhg
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "jhg" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1998"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1998-02"^^xsd:gYearMonth ;
+    npg:volumeStart "43" ;
+    bibo:eissn "1435-232X" ;
+    bibo:issn "1434-5161" ;
+    bibo:shortTitle "J Hum Genet" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Human Genetics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/jhg> .
+
+journals:jhh
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "jhh" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1997"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1997-01"^^xsd:gYearMonth ;
+    npg:volumeStart "11" ;
+    bibo:eissn "1476-5527" ;
+    bibo:issn "0950-9240" ;
+    bibo:shortTitle "J Hum Hypertens" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Human Hypertension"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/jhh> .
+
+journals:jibs
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "jibs" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1970"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1970-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1478-6990" ;
+    bibo:issn "0047-2506" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of International Business Studies"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/jibs> .
+
+journals:jid
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "jid" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1938"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1938-02"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1523-1747" ;
+    bibo:issn "0022-202X" ;
+    bibo:shortTitle "J Invest Dermatol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Investigative Dermatology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/jid> .
+
+journals:jidsp
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "jidsp" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1999"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1999-09"^^xsd:gYearMonth ;
+    npg:volumeStart "4" ;
+    bibo:eissn "1529-1774" ;
+    bibo:issn "1087-0024" ;
+    bibo:shortTitle "J Invest Derm Symp P" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Investigative Dermatology Symposium Proceedings"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/jidsp> .
+
+journals:jird
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "jird" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2004"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2004-04"^^xsd:gYearMonth ;
+    npg:volumeStart "7" ;
+    bibo:eissn "1581-1980" ;
+    bibo:issn "1408-6980" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of International Relations and Development"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/jird> .
+
+journals:jit
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "jit" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1986"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1986-02"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1466-4437" ;
+    bibo:issn "0268-3962" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Information Technology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/jit> .
+
+journals:jittc
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "jittc" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2011"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2011-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2043-8869" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Information Technology Teaching Cases"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/jittc> .
+
+journals:jma
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "jma" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2013"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2013-02"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2050-3326" ;
+    bibo:issn "2050-3318" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Marketing Analytics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/jma> .
+
+journals:jors
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "jors" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1950"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1950-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1476-9360" ;
+    bibo:issn "0160-5682" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of the Operational Research Society"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/jors> .
+
+journals:jos
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "jos" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2006"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2006-12"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1747-7786" ;
+    bibo:issn "1747-7778" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Simulation"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/jos> .
+
+journals:jp
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "jp" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1999"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1999-01"^^xsd:gYearMonth ;
+    npg:volumeStart "19" ;
+    bibo:eissn "1476-5543" ;
+    bibo:issn "0743-8346" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Perinatology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/jp> .
+
+journals:jphp
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "jphp" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1980"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1980-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1745-655X" ;
+    bibo:issn "0197-5897" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Public Health Policy"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/jphp> .
+
+journals:jt
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "jt" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2000"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2000-08"^^xsd:gYearMonth ;
+    npg:volumeStart "9" ;
+    bibo:eissn "1479-1862" ;
+    bibo:issn "0967-3237" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Targeting, Measurement and Analysis for Marketing"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/jt> .
+
+journals:ki
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ki" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1972"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1972-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1523-1755" ;
+    bibo:issn "0085-2538" ;
+    bibo:shortTitle "Kidney Int" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Kidney International"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ki> .
+
+journals:kisup
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "kisup" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2011"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2011-05"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2157-1716" ;
+    bibo:issn "2157-1724" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Kidney International Supplements"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/kisup> .
+
+journals:kmrp
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "kmrp" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2003"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2003-07"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1477-8246" ;
+    bibo:issn "1477-8238" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Knowledge Management Research and Practice"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/kmrp> .
+
+journals:laban
+    npg:id "laban" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2003"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2003-01"^^xsd:gYearMonth ;
+    npg:volumeStart "32" ;
+    bibo:eissn "1548-4475" ;
+    bibo:issn "0093-7355" ;
+    bibo:shortTitle "Lab Animal" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Lab Animal"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/laban> .
+
+journals:labinvest
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "labinvest" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2000"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2000-01"^^xsd:gYearMonth ;
+    npg:volumeStart "80" ;
+    bibo:eissn "1530-0307" ;
+    bibo:issn "0023-6837" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Laboratory Investigation"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/labinvest> .
+
+journals:leu
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "leu" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1997"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1997-01"^^xsd:gYearMonth ;
+    npg:volumeStart "11" ;
+    bibo:eissn "1476-5551" ;
+    bibo:issn "0887-6924" ;
+    bibo:shortTitle "Leukemia" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Leukemia"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/leu> .
+
+journals:leusup
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "leusup" ;
+    npg:publicationStartYear "2011"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2011-08"^^xsd:gYearMonth ;
+    bibo:eissn "2044-5229" ;
+    bibo:issn "2044-5210" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Leukemia Supplements"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/leusup> .
+
+journals:lsa
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "lsa" ;
+    npg:publicationStartYear "2012"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2012-03"^^xsd:gYearMonth ;
+    bibo:eissn "2047-7538" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Light: Science & Applications"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/lsa> .
+
+journals:lst
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "lst" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2003"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2003-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1476-3443" ;
+    bibo:issn "1476-3435" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Latino Studies"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/lst> .
+
+journals:mds
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "mds" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2009"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2009-01"^^xsd:gYearMonth ;
+    npg:volumeStart "757" ;
+    bibo:issn "0308-6666" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Monthly Digest of Statistics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/mds> .
+
+journals:mel
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "mel" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1999"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1999-07"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1479-294X" ;
+    bibo:issn "1479-2931" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Maritime Economics and Logistics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/mel> .
+
+journals:mi
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "mi" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2008"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2008-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1935-3456" ;
+    bibo:issn "1933-0219" ;
+    bibo:shortTitle "Mucosal Immunol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Mucosal Immunology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/mi> .
+
+journals:micronano
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "micronano" ;
+    npg:publicationStartYear "2015"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2015-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2055-7434" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Microsystems & Nanoengineering"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/micronano> .
+
+journals:milestones
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "milestones" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Milestones"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/milestones> .
+
+journals:modpathol
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "modpathol" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2000"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2000-01"^^xsd:gYearMonth ;
+    npg:volumeStart "13" ;
+    bibo:eissn "1530-0285" ;
+    bibo:issn "0893-3952" ;
+    bibo:shortTitle "Modern Pathol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Modern Pathology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/modpathol> .
+
+journals:mp
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "mp" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1997"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1997-01"^^xsd:gYearMonth ;
+    npg:volumeStart "2" ;
+    bibo:eissn "1476-5578" ;
+    bibo:issn "1359-4184" ;
+    bibo:shortTitle "Mol Psychiatr" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Molecular Psychiatry"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/mp> .
+
+journals:msq
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "msq" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2011"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2011-02"^^xsd:gYearMonth ;
+    npg:volumeStart "8" ;
+    bibo:eissn "2050-8544" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Migration Statistics Quarterly Report"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/msq> .
+
+journals:mt
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "mt" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2000"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2000-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1525-0024" ;
+    bibo:issn "1525-0016" ;
+    bibo:shortTitle "Mol Ther" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Molecular Therapy"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/mt> .
+
+journals:mtm
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "mtm" ;
+    npg:publicationStartYear "2013"^^xsd:gYear ;
+    bibo:eissn "2329-0501" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Molecular Therapy — Methods & Clinical Development"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/mtm> .
+
+journals:mtna
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "mtna" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2012"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2012-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2162-2531" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Molecular Therapy — Nucleic Acids"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/mtna> .
+
+journals:mto
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "mto" ;
+    npg:publicationStartYear "2014"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2014-11"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2372-7705" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Molecular Therapy — Oncolytics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/mto> .
+
+journals:natrevmats
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "natrevmats" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2016"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2016-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2058-8437" ;
+    a npg:Journal , skos:Concept ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reviews Materials"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/natrevmats> .
+
+journals:nature
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nature" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1869"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1869-11"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1476-4687" ;
+    bibo:issn "0028-0836" ;
+    bibo:shortTitle "Nature" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nature> .
+
+journals:nature-newbio
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nature-newbio" ;
+    npg:issueEnd "155" ;
+    npg:issueStart "1" ;
+    npg:publicationEndYear "1973"^^xsd:gYear ;
+    npg:publicationEndYearMonth "1973-12"^^xsd:gYearMonth ;
+    npg:publicationStartYear "1971"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1971-01"^^xsd:gYearMonth ;
+    npg:volumeEnd "246" ;
+    npg:volumeStart "229" ;
+    bibo:issn "0090-0028" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature New Biology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nature> .
+
+journals:nature-physci
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nature-physci" ;
+    npg:issueEnd "155" ;
+    npg:issueStart "1" ;
+    npg:publicationEndYear "1973"^^xsd:gYear ;
+    npg:publicationEndYearMonth "1973-12"^^xsd:gYearMonth ;
+    npg:publicationStartYear "1971"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1971-01"^^xsd:gYearMonth ;
+    npg:volumeEnd "246" ;
+    npg:volumeStart "229" ;
+    bibo:issn "0300-8746" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Physical Science"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nature> .
+
+journals:naturejobs
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "naturejobs" ;
+    npg:publicationStartYear "1999"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1999-11"^^xsd:gYearMonth ;
+    bibo:issn "1476-461X" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Jobs"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/naturejobs> .
+
+journals:nbt
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nbt" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1983"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1983-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1546-1696" ;
+    bibo:issn "1087-0156" ;
+    bibo:shortTitle "Nat Biotechnol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Biotechnology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nbt> .
+
+journals:ncb
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ncb" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1999"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1999-05"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1476-4679" ;
+    bibo:issn "1465-7392" ;
+    bibo:shortTitle "Nat Cell Biol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Cell Biology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ncb> .
+
+journals:nchem
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nchem" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2009"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2009-04"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1755-4349" ;
+    bibo:issn "1755-4330" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Chemistry"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nchem> .
+
+journals:nchembio
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nchembio" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-06"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1552-4469" ;
+    bibo:issn "1552-4450" ;
+    bibo:shortTitle "Nat Chem Biol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Chemical Biology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nchembio> .
+
+journals:nchina
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nchina" ;
+    npg:publicationStartYear "2007"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2007-01"^^xsd:gYearMonth ;
+    bibo:eissn "1751-5793" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature China"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nchina> .
+
+journals:nclimate
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nclimate" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2011"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2011-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1758-6798" ;
+    bibo:issn "1758-678X" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Climate Change"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nclimate> .
+
+journals:ncomms
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ncomms" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2010"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2010-04"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2041-1723" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Communications"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ncomms> .
+
+journals:ncpcardio
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ncpcardio" ;
+    npg:issueEnd "3" ;
+    npg:issueStart "1" ;
+    npg:publicationEndYear "2009"^^xsd:gYear ;
+    npg:publicationEndYearMonth "2009-03"^^xsd:gYearMonth ;
+    npg:publicationStartYear "2004"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2004-11"^^xsd:gYearMonth ;
+    npg:replacedBy journals:nrcardio ;
+    npg:volumeEnd "6" ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1743-4300" ;
+    bibo:issn "1743-4297" ;
+    bibo:shortTitle "Nat Clin Pract Card" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Clinical Practice Cardiovascular Medicine"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrcardio> .
+
+journals:ncpendmet
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ncpendmet" ;
+    npg:issueEnd "3" ;
+    npg:issueStart "1" ;
+    npg:publicationEndYear "2009"^^xsd:gYear ;
+    npg:publicationEndYearMonth "2009-03"^^xsd:gYearMonth ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-11"^^xsd:gYearMonth ;
+    npg:replacedBy journals:nrendo ;
+    npg:volumeEnd "5" ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1745-8374" ;
+    bibo:issn "1745-8366" ;
+    bibo:shortTitle "Nat Clin Pract Endoc" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Clinical Practice Endocrinology & Metabolism"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrendot> .
+
+journals:ncpgasthep
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ncpgasthep" ;
+    npg:issueEnd "3" ;
+    npg:issueStart "1" ;
+    npg:publicationEndYear "2009"^^xsd:gYear ;
+    npg:publicationEndYearMonth "2009-03"^^xsd:gYearMonth ;
+    npg:publicationStartYear "2004"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2004-11"^^xsd:gYearMonth ;
+    npg:replacedBy journals:nrgastro ;
+    npg:volumeEnd "6" ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1743-4386" ;
+    bibo:issn "1743-4378" ;
+    bibo:shortTitle "Nat Clin Pract Gastr" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Clinical Practice Gastroenterology & Hepatology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrgastro> .
+
+journals:ncpneph
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ncpneph" ;
+    npg:issueEnd "3" ;
+    npg:issueStart "1" ;
+    npg:publicationEndYear "2009"^^xsd:gYear ;
+    npg:publicationEndYearMonth "2009-03"^^xsd:gYearMonth ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-11"^^xsd:gYearMonth ;
+    npg:replacedBy journals:nrneph ;
+    npg:volumeEnd "5" ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1745-8331" ;
+    bibo:issn "1745-8323" ;
+    bibo:shortTitle "Nat Clin Pract Nephr" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Clinical Practice Nephrology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrneph> .
+
+journals:ncpneuro
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ncpneuro" ;
+    npg:issueEnd "3" ;
+    npg:issueStart "1" ;
+    npg:publicationEndYear "2009"^^xsd:gYear ;
+    npg:publicationEndYearMonth "2009-03"^^xsd:gYearMonth ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-11"^^xsd:gYearMonth ;
+    npg:replacedBy journals:nrneurol ;
+    npg:volumeEnd "5" ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1745-8358" ;
+    bibo:issn "1745-834X" ;
+    bibo:shortTitle "Nat Clin Pract Neuro" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Clinical Practice Neurology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ncpneuro> .
+
+journals:ncponc
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ncponc" ;
+    npg:issueEnd "3" ;
+    npg:issueStart "1" ;
+    npg:publicationEndYear "2009"^^xsd:gYear ;
+    npg:publicationEndYearMonth "2009-03"^^xsd:gYearMonth ;
+    npg:publicationStartYear "2004"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2004-11"^^xsd:gYearMonth ;
+    npg:replacedBy journals:nrclinonc ;
+    npg:volumeEnd "6" ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1743-4262" ;
+    bibo:issn "1743-4254" ;
+    bibo:shortTitle "Nat Clin Pract Oncol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Clinical Practice Oncology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrclinonc> .
+
+journals:ncprheum
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ncprheum" ;
+    npg:issueEnd "3" ;
+    npg:issueStart "1" ;
+    npg:publicationEndYear "2009"^^xsd:gYear ;
+    npg:publicationEndYearMonth "2009-03"^^xsd:gYearMonth ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-11"^^xsd:gYearMonth ;
+    npg:replacedBy journals:nrrheum ;
+    npg:volumeEnd "5" ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1745-8390" ;
+    bibo:issn "1745-8382" ;
+    bibo:shortTitle "Nat Clin Pract Rheum" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Clinical Practice Rheumatology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrclinonc> .
+
+journals:ncpuro
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ncpuro" ;
+    npg:issueEnd "3" ;
+    npg:issueStart "1" ;
+    npg:publicationEndYear "2009"^^xsd:gYear ;
+    npg:publicationEndYearMonth "2009-03"^^xsd:gYearMonth ;
+    npg:publicationStartYear "2004"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2004-11"^^xsd:gYearMonth ;
+    npg:replacedBy journals:nrurol ;
+    npg:volumeEnd "6" ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1743-4289" ;
+    bibo:issn "1743-4270" ;
+    bibo:shortTitle "Nat Clin Pract Urol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Clinical Practice Urology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrclinonc> .
+
+journals:ndigest
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ndigest" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2004"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2004-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:issn "1880-0556" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Digest"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ndigest> .
+
+journals:nenergy
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nenergy" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2016"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2016-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2058-7546" ;
+    a npg:Journal , skos:Concept ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Energy"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nenergy> .
+
+journals:neuro
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "neuro" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1998"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1998-05"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1546-1726" ;
+    bibo:issn "1097-6256" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Neuroscience"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/neuro> .
+
+journals:news
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "news" ;
+    npg:publicationStartYear "1998"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1998-07"^^xsd:gYearMonth ;
+    bibo:eissn "1744-7933" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature News"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/news> .
+
+journals:ng
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ng" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1992"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1992-04"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1546-1718" ;
+    bibo:issn "1061-4036" ;
+    bibo:shortTitle "Nat Genet" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Genetics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ng> .
+
+journals:ngeo
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ngeo" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2008"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2008-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1752-0908" ;
+    bibo:issn "1752-0894" ;
+    bibo:shortTitle "Nat Geosci" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Geoscience"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ngeo> .
+
+journals:ni
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "ni" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2000"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2000-07"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1529-2916" ;
+    bibo:issn "1529-2908" ;
+    bibo:shortTitle "Nat Immunol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Immunology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/ni> .
+
+journals:nindia
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nindia" ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-05"^^xsd:gYearMonth ;
+    bibo:eissn "1755-3180" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature India"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nindia> .
+
+journals:nm
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nm" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1995"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1995-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1546-170X" ;
+    bibo:issn "1078-8956" ;
+    bibo:shortTitle "Nat Med" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Medicine"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nm> .
+
+journals:nmat
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nmat" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2002"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2002-09"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1476-4660" ;
+    bibo:issn "1476-1122" ;
+    bibo:shortTitle "Nat Mater" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Materials"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nmat> .
+
+journals:nmeth
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nmeth" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2004"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2004-10"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1548-7105" ;
+    bibo:issn "1548-7091" ;
+    bibo:shortTitle "Nat Methods" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Methods"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nmeth> .
+
+journals:nmicrobiol
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nmicrobiol" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2016"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2016-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2058-5276" ;
+    a npg:Journal , skos:Concept ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Microbiology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nmicrobiol> .
+
+journals:nmiddleeast
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nmiddleeast" ;
+    npg:publicationStartYear "2009"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2009-08"^^xsd:gYearMonth ;
+    bibo:eissn "2042-6046" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Middle East"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nmiddleeast> .
+
+journals:nnano
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nnano" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2006"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2006-10"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1748-3395" ;
+    bibo:issn "1748-3387" ;
+    bibo:shortTitle "Nat Nanotechnol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Nanotechnology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nnano> .
+
+journals:nphoton
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nphoton" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2007"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2007-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1749-4893" ;
+    bibo:issn "1749-4885" ;
+    bibo:shortTitle "Nat Photonics" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Photonics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nphoton> .
+
+journals:nphys
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nphys" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-10"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1745-2481" ;
+    bibo:issn "1745-2473" ;
+    bibo:shortTitle "Nat Phys" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Physics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nphys> .
+
+journals:npjamd
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npjamd" ;
+    npg:publicationStartYear "2015"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2015-02"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2056-3973" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "npj Aging and Mechanisms of Disease"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjamd> .
+
+journals:npjbcancer
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npjbcancer" ;
+    npg:publicationStartYear "2015"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2015-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2374-4677" ;
+    a npg:Journal , skos:Concept ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "npj Breast Cancer"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjbcancer> .
+
+journals:npjbiofilms
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npjbiofilms" ;
+    npg:publicationStartYear "2014"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2014-10"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2055-5008" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "npj Biofilms and Microbiomes"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjbiofilms> .
+
+journals:npjcleanwater
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npjcleanwater" ;
+    npg:publicationStartYear "2016"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2016-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2059-7037" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "npj Clean Water"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjcleanwater> .
+
+journals:npjcompumats
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npjcompumats" ;
+    npg:publicationStartYear "2015"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2015-07"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2057-3960" ;
+    a npg:Journal , skos:Concept ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "npj Computational Materials" ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjcompumats> .
+
+journals:npjgenmed
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npjgenmed" ;
+    npg:publicationStartYear "2015"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2015-08"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2056-7944" ;
+    a npg:Journal , skos:Concept ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "npj Genomic Medicine" ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjgenmed> .
+
+journals:npjmgrav
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npjmgrav" ;
+    npg:publicationStartYear "2015"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2015-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2373-8065" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "npj Microgravity"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjmgrav> .
+
+journals:npjmolphen
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npjmolphen" ;
+    npg:publicationStartYear "2016"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2016-04"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2059-4690" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "npj Molecular Phenomics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjmolphen> .
+
+journals:npjparkd
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npjparkd" ;
+    npg:publicationStartYear "2015"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2015-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2373-8057" ;
+    a npg:Journal , skos:Concept ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "npj Parkinson's Disease"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjparkd> .
+
+journals:npjpcrm
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npjpcrm" ;
+    npg:publicationStartYear "2014"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2014-05"^^xsd:gYearMonth ;
+    npg:replaces journals:pcrj ;
+    npg:volumeStart "24" ;
+    bibo:eissn "2055-1010" ;
+    bibo:shortTitle "npj Prim Care Resp Med" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "npj Primary Care Respiratory Medicine"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjpcrm> .
+
+journals:npjpollcon
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npjpollcon" ;
+    npg:publicationStartYear "2016"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2016-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2059-318X" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "npj Pollution Control"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjpollcon> .
+
+journals:npjqi
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npjqi" ;
+    npg:publicationStartYear "2015"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2015-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2056-6387" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "npj Quantum Information"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjqi> .
+
+journals:npjregenmed
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npjregenmed" ;
+    npg:publicationStartYear "2015"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2015-05"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2057-3995" ;
+    a npg:Journal , skos:Concept ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "npj Regenerative Medicine" ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjregenmed> .
+
+journals:npjsba
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npjsba" ;
+    npg:publicationStartYear "2014"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2014-12"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2056-7189" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "npj Systems Biology and Applications"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjsba> .
+
+journals:npjschz
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npjschz" ;
+    npg:publicationStartYear "2014"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2014-10"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2334-265X" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "npj Schizophrenia"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjschz> .
+
+journals:npjscilearn
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npjscilearn" ;
+    npg:publicationStartYear "2015"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2015-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2056-7936" ;
+    a npg:Journal , skos:Concept ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "npj Science of Learning" ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjscilearn> .
+
+journals:npjvaccines
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npjvaccines" ;
+    npg:publicationStartYear "2015"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2015-11"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2059-0105" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "npj Vaccines"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjvaccines> .
+
+journals:nplants
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nplants" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2015"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2015-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2055-0278" ;
+    bibo:issn "2055-026X" ;
+    bibo:shortTitle "Nat Plants" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Plants"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nplants> .
+
+journals:npp
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "npp" ;
+    npg:issueStart "3" ;
+    npg:publicationStartYear "1994"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1994-11"^^xsd:gYearMonth ;
+    npg:volumeStart "11" ;
+    bibo:eissn "1740-634X" ;
+    bibo:issn "0893-133X" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Neuropsychopharmacology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npp> .
+
+journals:nprot
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nprot" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2006"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2006-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1750-2799" ;
+    bibo:issn "1754-2189" ;
+    bibo:shortTitle "Nat Protoc" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Protocols"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nprot> .
+
+journals:nrc
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nrc" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2001"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2001-10"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1474-1768" ;
+    bibo:issn "1474-175X" ;
+    bibo:shortTitle "Nat Rev Cancer" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reviews Cancer"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrc> .
+
+journals:nrcardio
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nrcardio" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2004"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2004-11"^^xsd:gYearMonth ;
+    npg:replaces journals:ncpcardio ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1759-5010" ;
+    bibo:issn "1759-5002" ;
+    bibo:shortTitle "Nat Rev Cardiol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reviews Cardiology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrcardio> .
+
+journals:nrclinonc
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nrclinonc" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2004"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2004-11"^^xsd:gYearMonth ;
+    npg:replaces journals:ncponc ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1759-4782" ;
+    bibo:issn "1759-4774" ;
+    bibo:shortTitle "Nat Rev Clin Oncol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reviews Clinical Oncology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrclinonc> .
+
+journals:nrd
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nrd" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2002"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2002-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1474-1784" ;
+    bibo:issn "1474-1776" ;
+    bibo:shortTitle "Nat Rev Drug Discov" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reviews Drug Discovery"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrd> .
+
+journals:nrdp
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nrdp" ;
+    npg:publicationStartYear "2015"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2015-04"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2056-676X" ;
+    bibo:shortTitle "Nat. Rev. Dis. Primers" ;
+    a npg:Journal , skos:Concept ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reviews Disease Primers"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrdp> .
+
+journals:nrendo
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nrendo" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-11"^^xsd:gYearMonth ;
+    npg:replaces journals:ncpendmet ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1759-5037" ;
+    bibo:issn "1759-5029" ;
+    bibo:shortTitle "Nat Rev Endocrinol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reviews Endocrinology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrendo> .
+
+journals:nrg
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nrg" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2000"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2000-10"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1471-0064" ;
+    bibo:issn "1471-0056" ;
+    bibo:shortTitle "Nat Rev Genet" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reviews Genetics"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrg> .
+
+journals:nrgastro
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nrgastro" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2004"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2004-11"^^xsd:gYearMonth ;
+    npg:replaces journals:ncpgasthep ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1759-5053" ;
+    bibo:issn "1759-5045" ;
+    bibo:shortTitle "Nat Rev Gastroentero" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reviews Gastroenterology and Hepatology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrgastro> .
+
+journals:nri
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nri" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2001"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2001-10"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1474-1741" ;
+    bibo:issn "1474-1733" ;
+    bibo:shortTitle "Nat Rev Immunol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reviews Immunology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nri> .
+
+journals:nrm
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nrm" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2000"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2000-10"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1471-0080" ;
+    bibo:issn "1471-0072" ;
+    bibo:shortTitle "Nat Rev Mol Cell Bio" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reviews Molecular Cell Biology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrm> .
+
+journals:nrmicro
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nrmicro" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2003"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2003-10"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1740-1534" ;
+    bibo:issn "1740-1526" ;
+    bibo:shortTitle "Nat Rev Microbiol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reviews Microbiology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrmicro> .
+
+journals:nrn
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nrn" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2000"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2000-10"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1471-0048" ;
+    bibo:issn "1471-003X" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reviews Neuroscience"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrn> .
+
+journals:nrneph
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nrneph" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-11"^^xsd:gYearMonth ;
+    npg:replaces journals:ncpneph ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1759-507X" ;
+    bibo:issn "1759-5061" ;
+    bibo:shortTitle "Nat Rev Nephrol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reviews Nephrology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrneph> .
+
+journals:nrneurol
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nrneurol" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-11"^^xsd:gYearMonth ;
+    npg:replaces journals:ncpneuro ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1759-4766" ;
+    bibo:issn "1759-4758" ;
+    bibo:shortTitle "Nat Rev Neurol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reviews Neurology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrneurol> .
+
+journals:nrrheum
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nrrheum" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-11"^^xsd:gYearMonth ;
+    npg:replaces journals:ncprheum ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1759-4804" ;
+    bibo:issn "1759-4790" ;
+    bibo:shortTitle "Nat Rev Rheumatol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reviews Rheumatology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrrheum> .
+
+journals:nrurol
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nrurol" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2004"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2004-11"^^xsd:gYearMonth ;
+    npg:replaces journals:ncpuro ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1759-4820" ;
+    bibo:issn "1759-4812" ;
+    bibo:shortTitle "Nat Rev Urol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reviews Urology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nrurol> .
+
+journals:nsb
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nsb" ;
+    npg:issueEnd "12" ;
+    npg:issueStart "1" ;
+    npg:publicationEndYear "2003"^^xsd:gYear ;
+    npg:publicationEndYearMonth "2003-12"^^xsd:gYearMonth ;
+    npg:publicationStartYear "1994"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1994-01"^^xsd:gYearMonth ;
+    npg:replacedBy journals:nsmb ;
+    npg:volumeEnd "10" ;
+    npg:volumeStart "1" ;
+    bibo:issn "1072-8368" ;
+    bibo:shortTitle "Nat Struct Biol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Structural Biology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nsb> .
+
+journals:nsmb
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nsmb" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1994"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1994-01"^^xsd:gYearMonth ;
+    npg:replaces journals:nsb ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1545-9985" ;
+    bibo:issn "1545-9993" ;
+    bibo:shortTitle "Nat Struct Mol Biol" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Structural and Molecular Biology"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nsmb> .
+
+journals:nutd
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "nutd" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2011"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2011-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2044-4052" ;
+    bibo:shortTitle "Nutr Diet" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nutrition & Diabetes"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/nutd> .
+
+journals:onc
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "onc" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1997"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1997-01"^^xsd:gYearMonth ;
+    npg:volumeStart "14" ;
+    bibo:eissn "1476-5594" ;
+    bibo:issn "0950-9232" ;
+    bibo:shortTitle "Oncogene" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Oncogene"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/onc> .
+
+journals:oncsis
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "oncsis" ;
+    npg:publicationStartYear "2012"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2012-02"^^xsd:gYearMonth ;
+    bibo:eissn "2157-9024" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Oncogenesis"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/oncsis> .
+
+journals:ori
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "ori" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1988"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1988-04"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:issn "0953-5543" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "OR Insight"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/ori> .
+
+journals:palcomms
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "palcomms" ;
+    npg:publicationStartYear "2014"^^xsd:gYear ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2055-1045" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Palgrave Communications"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/palcomms> .
+
+journals:pb
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "pb" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2004"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2004-11"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:issn "1744-0696" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Place Branding and Public Diplomacy"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/pb> .
+
+journals:pcan
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "pcan" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1997"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1997-09"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1476-5608" ;
+    bibo:issn "1365-7852" ;
+    bibo:shortTitle "Prostate Cancer P D" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Prostate Cancer and Prostatic Diseases"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/pcan> .
+
+journals:pcrj
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "pcrj" ;
+    npg:replacedBy journals:npjpcrm ;
+    bibo:eissn "1475-1534" ;
+    bibo:issn "1471-4418" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Primary Care Respiratory Journal"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/npjpcrm> .
+
+journals:pcs
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "pcs" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2004"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2004-03"^^xsd:gYearMonth ;
+    npg:volumeStart "9" ;
+    bibo:eissn "1543-3390" ;
+    bibo:issn "1088-0763" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Psychoanalysis, Culture and Society"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/pcs> .
+
+journals:pj
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "pj" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2006"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2006-01"^^xsd:gYearMonth ;
+    npg:volumeStart "38" ;
+    bibo:eissn "1349-0540" ;
+    bibo:issn "0032-3896" ;
+    bibo:shortTitle "Polym J" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Polymer Journal"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/pj> .
+
+journals:pm
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "pm" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1999"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1999-09"^^xsd:gYearMonth ;
+    npg:volumeStart "5" ;
+    bibo:eissn "1750-208X" ;
+    bibo:issn "1478-5315" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Pensions: An International Journal"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/pm> .
+
+journals:pmed
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "pmed" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2010"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2010-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2040-5979" ;
+    bibo:issn "2040-5960" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "postmedieval: a journal of medieval cultural studies"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/pmed> .
+
+journals:polity
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "polity" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2005"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2005-02"^^xsd:gYearMonth ;
+    npg:volumeStart "37" ;
+    bibo:eissn "1744-1684" ;
+    bibo:issn "0032-3497" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Polity"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/polity> .
+
+journals:pr
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "pr" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1967"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1967-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1530-0447" ;
+    bibo:issn "0031-3998" ;
+    bibo:shortTitle "Pediatr Res" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Pediatric Research"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/pr> .
+
+journals:prne
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "prne" ;
+    npg:publicationStartYear "2006"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2006-01"^^xsd:gYearMonth ;
+    bibo:issn "2043-0116" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Protocol Exchange"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/protocolexchange> .
+
+journals:pt
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "pt" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2009"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2009-03"^^xsd:gYearMonth ;
+    npg:volumeStart "135" ;
+    bibo:issn "0307-4463" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Population Trends"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/pt> .
+
+journals:rlp
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "rlp" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2000"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2000-11"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1750-2098" ;
+    bibo:issn "1479-1110" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Retail and Leisure Property"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/rlp> .
+
+journals:rm
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "rm" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1999"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1999-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1743-4637" ;
+    bibo:issn "1460-3799" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Risk Management"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/rm> .
+
+journals:rpm
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "rpm" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2002"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2002-05"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1477-657X" ;
+    bibo:issn "1476-6930" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Journal of Revenue & Pricing Management"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/rpm> .
+
+journals:sc
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "sc" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1997"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1997-01"^^xsd:gYearMonth ;
+    npg:volumeStart "35" ;
+    bibo:eissn "1476-5624" ;
+    bibo:issn "1362-4393" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Spinal Cord"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/sc> .
+
+journals:scibx
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "scibx" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2008"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2008-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1945-3477" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Science-Business eXchange"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/scibx> .
+
+journals:scientificamerican
+    npg:hasPublisher <http://ns.nature.com/publishers/scientific-american> ;
+    npg:id "scientificamerican" ;
+    npg:issueStart "2" ;
+    npg:publicationStartYear "1860"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1860-07"^^xsd:gYearMonth ;
+    npg:volumeStart "3" ;
+    bibo:issn "0036-8733" ;
+    bibo:shortTitle "Sci Am" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Scientific American"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/scientificamerican> .
+
+journals:scientificamericanmind
+    npg:hasPublisher <http://ns.nature.com/publishers/scientific-american> ;
+    npg:id "scientificamericanmind" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2004"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2004-01"^^xsd:gYearMonth ;
+    npg:volumeStart "14" ;
+    bibo:issn "1555-2284" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Scientific American Mind"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/scientificamericanmind> .
+
+journals:scsandc
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "scsandc" ;
+    npg:publicationStartYear "2015"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2015-07"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2058-6124" ;
+    a npg:Journal , skos:Concept ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Spinal Cord Series and Cases"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/scsandc> .
+
+journals:sdata
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "sdata" ;
+    bibo:eissn "2052-4463" ;
+    bibo:shortTitle "Sci Data" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Scientific Data"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/scientificdata> .
+
+journals:sigtrans
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "sigtrans" ;
+    npg:publicationStartYear "2016"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2016-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2059-3635" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Signal Transduction and Targeted Therapy"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/sigtrans> .
+
+journals:sj
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "sj" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1999"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1999-01"^^xsd:gYearMonth ;
+    npg:volumeStart "12" ;
+    bibo:eissn "1743-4645" ;
+    bibo:issn "0955-1662" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Security Journal"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/sj> .
+
+journals:srep
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "srep" ;
+    npg:publicationStartYear "2011"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2011-04"^^xsd:gYearMonth ;
+    bibo:eissn "2045-2322" ;
+    bibo:shortTitle "Sci Rep" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Scientific Reports"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/srep> .
+
+journals:stemcells
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "stemcells" ;
+    npg:publicationEndYear "2009"^^xsd:gYear ;
+    npg:publicationEndYearMonth "2009-10"^^xsd:gYearMonth ;
+    npg:publicationStartYear "2007"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2007-06"^^xsd:gYearMonth ;
+    bibo:eissn "1754-8705" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Nature Reports Stem Cells"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/stemcells> .
+
+journals:sth
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "sth" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2003"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2003-04"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1477-822X" ;
+    bibo:issn "1477-8211" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Social Theory and Health"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/sth> .
+
+journals:sub
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "sub" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2010"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2010-03"^^xsd:gYearMonth ;
+    npg:volumeStart "3" ;
+    bibo:eissn "1755-635X" ;
+    bibo:issn "1755-6341" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Subjectivity"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/sub> .
+
+journals:tp
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "tp" ;
+    npg:issueStart "4" ;
+    npg:publicationStartYear "2011"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2011-04"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "2158-3188" ;
+    bibo:shortTitle "Transl Psychiatry" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Translational Psychiatry"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/tp> .
+
+journals:tpj
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "tpj" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2001"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2001-06"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1473-1150" ;
+    bibo:issn "1470-269X" ;
+    bibo:shortTitle "Pharmacogenomics J" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "The Pharmacogenomics Journal"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/tpj> .
+
+journals:udi
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "udi" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "1996"^^xsd:gYear ;
+    npg:publicationStartYearMonth "1996-03"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1468-4519" ;
+    bibo:issn "1357-5317" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Urban Design International"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/udi> .
+
+journals:ukea
+    npg:hasPublisher <http://ns.nature.com/publishers/palgrave-macmillan> ;
+    npg:id "ukea" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2009"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2009-04"^^xsd:gYearMonth ;
+    npg:volumeStart "65" ;
+    bibo:issn "1350-4401" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "United Kingdom Economic Accounts"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.palgrave-journals.com/ukea> .
+
+journals:vital
+    npg:hasPublisher <http://ns.nature.com/publishers/nature-publishing-group> ;
+    npg:id "vital" ;
+    npg:issueStart "1" ;
+    npg:publicationStartYear "2003"^^xsd:gYear ;
+    npg:publicationStartYearMonth "2003-01"^^xsd:gYearMonth ;
+    npg:volumeStart "1" ;
+    bibo:eissn "1741-7511" ;
+    bibo:issn "1741-7503" ;
+    a npg:Journal , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/journals/> ;
+    skos:inScheme <http://ns.nature.com/journals/> ;
+    skos:prefLabel "Vital"@en ;
+    skos:topConceptOf <http://ns.nature.com/journals/> ;
+    foaf:homepage <http://www.nature.com/vital> .
+

@@ -1,0 +1,104 @@
+@prefix :            <http://ns.nature.com/terms/> .
+@prefix bibo:        <http://purl.org/ontology/bibo/> .
+@prefix dc:          <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms:     <http://purl.org/dc/terms/> .
+@prefix foaf:        <http://xmlns.com/foaf/0.1/> .
+@prefix npg:         <http://ns.nature.com/terms/> .
+@prefix npgd:        <http://ns.nature.com/datasets/> .
+@prefix npgg:        <http://ns.nature.com/graphs/> .
+@prefix owl:         <http://www.w3.org/2002/07/owl#> .
+@prefix prism:       <http://prismstandard.org/namespaces/basic/2.1/> .
+@prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:        <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:        <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann:        <http://purl.org/vocab/vann/> .
+@prefix xsd:         <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix severity-levels: <http://ns.nature.com/severity-levels/> .
+
+severity-levels:
+    npg:webpage <http://www.nature.com/ontologies/models/severity-levels/> ;
+    dc:date "2015-08-17T06:12:06.026-04:00" ;
+    dc:publisher "Macmillan Publishers Limited" ;
+    dc:rights "This work is distributed under a Creative Commons Zero 1.0 (CC0 1.0) Public Domain Dedication <http://creativecommons.org/publicdomain/zero/1.0/>."@en ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    vann:preferredNamespacePrefix "severity-levels" ;
+    vann:preferredNamespaceUri "http://ns.nature.com/severity-levels/" ;
+    a owl:Ontology, skos:ConceptScheme ;
+    owl:imports <http://ns.nature.com/terms/> ;
+    owl:versionInfo "1.9.45" ;
+    skos:definition "The SeverityLevels Ontology is a modelling of the syslog message severity values from RFC 5424."@en ;
+    skos:prefLabel "SeverityLevels Ontology"@en .
+
+severity-levels:alert
+    npg:id "alert" ;
+    a npg:SeverityLevel , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/severity-levels/> ;
+    skos:definition "The :alert severity-level is a severity level indicating \"Action must be taken immediately\", modelled on the syslog message severity value 1 [RFC 5425]."@en ;
+    skos:inScheme <http://ns.nature.com/severity-levels/> ;
+    skos:prefLabel "Alert"@en ;
+    skos:topConceptOf <http://ns.nature.com/severity-levels/> .
+
+severity-levels:critical
+    npg:id "critical" ;
+    a npg:SeverityLevel , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/severity-levels/> ;
+    skos:definition "The :critical severity-level is a severity level indicating \"Critical conditions\", modelled on the syslog message severity value 2 [RFC 5425]."@en ;
+    skos:inScheme <http://ns.nature.com/severity-levels/> ;
+    skos:prefLabel "Critical"@en ;
+    skos:topConceptOf <http://ns.nature.com/severity-levels/> .
+
+severity-levels:debug
+    npg:id "debug" ;
+    a npg:SeverityLevel , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/severity-levels/> ;
+    skos:definition "The :debug severity-level is a severity level indicating \"Debug-level messages\", modelled on the syslog message severity value 7 [RFC 5425]."@en ;
+    skos:inScheme <http://ns.nature.com/severity-levels/> ;
+    skos:prefLabel "Debug"@en ;
+    skos:topConceptOf <http://ns.nature.com/severity-levels/> .
+
+severity-levels:emergency
+    npg:id "emergency" ;
+    a npg:SeverityLevel , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/severity-levels/> ;
+    skos:definition "The :emergency severity-level is a severity level indicating \"System is unusable\", modelled on the syslog message severity value 0 [RFC 5425]."@en ;
+    skos:inScheme <http://ns.nature.com/severity-levels/> ;
+    skos:prefLabel "Emergency"@en ;
+    skos:topConceptOf <http://ns.nature.com/severity-levels/> .
+
+severity-levels:error
+    npg:id "error" ;
+    a npg:SeverityLevel , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/severity-levels/> ;
+    skos:definition "The :error severity-level is a severity level indicating \"Error conditions\", modelled on the syslog message severity value 3 [RFC 5425]."@en ;
+    skos:inScheme <http://ns.nature.com/severity-levels/> ;
+    skos:prefLabel "Error"@en ;
+    skos:topConceptOf <http://ns.nature.com/severity-levels/> .
+
+severity-levels:informational
+    npg:id "informational" ;
+    a npg:SeverityLevel , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/severity-levels/> ;
+    skos:definition "The :informational severity-level is a severity level indicating \"Informational messages\", modelled on the syslog message severity value 6 [RFC 5425]. "@en ;
+    skos:inScheme <http://ns.nature.com/severity-levels/> ;
+    skos:prefLabel "Informational"@en ;
+    skos:topConceptOf <http://ns.nature.com/severity-levels/> .
+
+severity-levels:notice
+    npg:id "notice" ;
+    a npg:SeverityLevel , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/severity-levels/> ;
+    skos:definition "The :notice severity-level is a severity level indicating \"Normal but significant condition\", modelled on the syslog message severity value 5 [RFC 5425]."@en ;
+    skos:inScheme <http://ns.nature.com/severity-levels/> ;
+    skos:prefLabel "Notice"@en ;
+    skos:topConceptOf <http://ns.nature.com/severity-levels/> .
+
+severity-levels:warning
+    npg:id "warning" ;
+    a npg:SeverityLevel , skos:Concept ;
+    rdfs:isDefinedBy <http://ns.nature.com/severity-levels/> ;
+    skos:definition "The :warning severity-level is a severity level indicating \"Warning conditions\", modelled on the syslog message severity value 4 [RFC 5425]."@en ;
+    skos:inScheme <http://ns.nature.com/severity-levels/> ;
+    skos:prefLabel "Warning"@en ;
+    skos:topConceptOf <http://ns.nature.com/severity-levels/> .
+

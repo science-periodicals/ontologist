@@ -1,0 +1,8 @@
+.dockerignore
+.eslintrc
+.git
+.gitignore
+circle.yml
+logs/
+test/
+src/

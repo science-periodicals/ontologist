@@ -1,0 +1,416 @@
+@prefix :            <http://ns.nature.com/terms/> .
+@prefix bibo:        <http://purl.org/ontology/bibo/> .
+@prefix dc:          <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms:     <http://purl.org/dc/terms/> .
+@prefix foaf:        <http://xmlns.com/foaf/0.1/> .
+@prefix npg:         <http://ns.nature.com/terms/> .
+@prefix npgd:        <http://ns.nature.com/datasets/> .
+@prefix npgg:        <http://ns.nature.com/graphs/> .
+@prefix owl:         <http://www.w3.org/2002/07/owl#> .
+@prefix prism:       <http://prismstandard.org/namespaces/basic/2.1/> .
+@prefix rdf:         <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:        <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:        <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann:        <http://purl.org/vocab/vann/> .
+@prefix xsd:         <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix relations: <http://ns.nature.com/relations/> .
+
+relations:
+    npg:webpage <http://www.nature.com/ontologies/models/relations/> ;
+    dc:date "2015-08-17T06:12:06.014-04:00" ;
+    dc:publisher "Macmillan Publishers Limited" ;
+    dc:rights "This work is distributed under a Creative Commons Zero 1.0 (CC0 1.0) Public Domain Dedication <http://creativecommons.org/publicdomain/zero/1.0/>."@en ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    vann:preferredNamespacePrefix "relations" ;
+    vann:preferredNamespaceUri "http://ns.nature.com/relations/" ;
+    a owl:Ontology, skos:ConceptScheme ;
+    owl:imports <http://ns.nature.com/terms/> ;
+    owl:versionInfo "1.9.45" ;
+    skos:definition "The Relations Ontology is a catalogue of the kinds of relation which are used to manage our linked publications."@en ;
+    skos:prefLabel "Relations Ontology"@en .
+
+relations:hasAddendum
+    npg:id "hasAddendum" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:isAddendumOf ;
+    skos:definition "The :hasAddendum relation links an article with an addendum to that article. An addendum is a notification of a (usually) peer-reviewed addition of information to an article."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Has Addendum"@en .
+
+relations:hasComment
+    npg:id "hasComment" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:isCommentOf ;
+    skos:definition "The :hasComment relation links an article with an associated comment article. A comment is an article that provides a commentary on other content and is generally an agenda-setting, authoritative, informed and often provocative expert piece calling for action on topical issues pertaining to scientific research and its political, ethical and social ramifications."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Has Comment"@en .
+
+relations:hasCorrection
+    npg:id "hasCorrection" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:isCorrectionOf ;
+    skos:definition "The :hasCorrection relation links an article with a correction to that article. A correction is a notification of errors in less scholarly article-types, compared with errata and corrigenda which notify errors in primary research."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Has Correction"@en .
+
+relations:hasCorrigendum
+    npg:id "hasCorrigendum" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:isCorrigendumOf ;
+    skos:definition "The :hasCorrigendum relation links an article with a corrigendum to that article. A corrigendum is a notification of an important error made by the author(s) that affects the publication record or the scientific integrity of the paper, or the reputation of the authors or the journal."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Has Corrigendum"@en .
+
+relations:hasDataDescriptor
+    npg:id "hasDataDescriptor" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:isDataDescriptorOf ;
+    skos:definition "The :hasDataDescriptor relation links an article with an associated data descriptor. A data descriptor is an article describing one or more unprocessed experimental or observational data sets, with a strong emphasis on the adequacy of the methods used to collect the data and technical analysis to support its suitability for re-use by others."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Has Data Descriptor"@en .
+
+relations:hasErratum
+    npg:id "hasErratum" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:isErratumOf ;
+    skos:definition "The :hasErratum relation links an article with an erratum to that article. An erratum is a notification of an important error made by the journal that affects the publication record or the scientific integrity of the paper, or the reputation of the authors, or of the journal."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Has Erratum"@en .
+
+relations:hasNewsAndViews
+    npg:id "hasNewsAndViews" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:isNewsAndViewsOf ;
+    skos:definition "The :hasNewsAndViews relation links an article with an associated news and views article. A news and views article is an authoritative, but readable and objective, account of cutting-edge research, usually as originally reported in a paper published in the same issue or elsewhere."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Has News And Views"@en .
+
+relations:hasPrimeView
+    npg:id "hasPrimeView" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:isPrimeViewOf ;
+    skos:definition "The :hasPrimeView relation links a primer article with its associated PrimeView. A primer is a review that describes an important, but usually technically complex, concept in an easily understood way. A PrimeView is an illustrated summary of a primer article."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Has PrimeView"@en .
+
+relations:hasProtocol
+    npg:id "hasProtocol" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:isProtocolOf ;
+    skos:definition "The :hasProtocol relation links an article with an associated protocol. A protocol is a ‘recipe’-style step-by-step description of a procedure."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Has Protocol"@en .
+
+relations:hasProtocolUpdate
+    npg:id "hasProtocolUpdate" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:isProtocolUpdateOf ;
+    skos:definition "The :hasProtocolUpdate relation links a protocol with a subsequently published protocol update. A protocol update is a new article that provides an update to an existing protocol."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Has Protocol Update"@en .
+
+relations:hasRelated
+    npg:id "hasRelated" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:isRelatedOf ;
+    skos:definition "The :hasRelated relation links two related articles. It is a generic relation that could be used if the type or reason for the relation is not given."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Has Related"@en .
+
+relations:hasResearchHighlight
+    npg:id "hasResearchHighlight" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:isResearchHighlightOf ;
+    skos:definition "The :hasResearchHighlight relation links an article with an associated research highlight. A research highlight is an article written by journalists to convey a summary of achievements of selected new research papers."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Has Research Highlight"@en .
+
+relations:hasResponse
+    npg:id "hasResponse" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:isResponseOf ;
+    skos:definition "The :hasResponse relation links an article with a subsequently published response to that article. A response could be a comment on material published in the journal, or could be a peer-reviewed formal response to published research."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Has Response"@en .
+
+relations:hasRetraction
+    npg:id "hasRetraction" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:isRetractionOf ;
+    skos:definition "The :hasRetraction relation links an article with the retraction of that article. A retraction is a notification of invalid results, which is necessary when either the main point of the paper or most of the paper is either based on artefact or found to be a result of scientific misconduct."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Has Retraction"@en .
+
+relations:hasThread
+    npg:id "hasThread" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:isThreadOf ;
+    skos:definition "The :hasThread relation links an article with an associated thread. A thread is an editorial synthesis composed of content excerpted from a group of current papers (typically at least five), and tied together by a minimal supporting narrative."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Has Thread"@en .
+
+relations:hasUpdate
+    npg:id "hasUpdate" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:isUpdateOf ;
+    skos:definition "The :hasUpdate relation links an article with a subsequently published update. An update is a new article that provides an update to an existing one."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Has Update"@en .
+
+relations:isAddendumOf
+    npg:id "isAddendumOf" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:hasAddendum ;
+    skos:definition "The :isAddendumOf relation links an addendum with the article that is the subject of the addendum. An addendum is a notification of a (usually) peer-reviewed addition of information to an article."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Is Addendum Of"@en .
+
+relations:isCommentOf
+    npg:id "isCommentOf" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:hasComment ;
+    skos:definition "The :isCommentOf relation links a comment with the article that is the focus of the comment. A comment is an article that provides a commentary on other content and is generally an agenda-setting, authoritative, informed and often provocative expert piece calling for action on topical issues pertaining to scientific research and its political, ethical and social ramifications."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Is Comment Of"@en .
+
+relations:isCorrectionOf
+    npg:id "isCorrectionOf" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:hasCorrection ;
+    skos:definition "The :isCorrectionOf relation links a correction with the article that is the subject of the correction. A correction is a notification of errors in less scholarly article-types, compared with errata and corrigenda which notify errors in primary research."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Is Correction Of"@en .
+
+relations:isCorrigendumOf
+    npg:id "isCorrigendumOf" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:hasCorrigendum ;
+    skos:definition "The :isCorrigendumOf relation links a corrigendum with the article that is the subject of the corrigendum. A corrigendum is a notification of an important error made by the author(s) that affects the publication record or the scientific integrity of the paper, or the reputation of the authors or the journal."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Is Corrigendum Of"@en .
+
+relations:isDataDescriptorOf
+    npg:id "isDataDescriptorOf" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:hasDataDescriptor ;
+    skos:definition "The :isDataDescriptorOf relation links a data descriptor with an article that is associated with the data descriptor. A data descriptor is an article describing one or more unprocessed experimental or observational data sets, with a strong emphasis on the adequacy of the methods used to collect the data and technical analysis to support its suitability for re-use by others."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Is Data Descriptor Of"@en .
+
+relations:isErratumOf
+    npg:id "isErratumOf" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:hasErratum ;
+    skos:definition "The :isErratumOf relation links an erratum with the article that is the subject of the erratum. An erratum is a notification of an important error made by the journal that affects the publication record or the scientific integrity of the paper, or the reputation of the authors, or of the journal."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Is Erratum Of"@en .
+
+relations:isNewsAndViewsOf
+    npg:id "isNewsAndViewsOf" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:hasNewsAndViews ;
+    skos:definition "The :isNewsAndViewsOf relation links a news and views article with the article that is the focus of the news and views article. A news and views article is an authoritative, but readable and objective, account of cutting-edge research, usually as originally reported in a paper published in the same issue or elsewhere."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Is News And Views Of"@en .
+
+relations:isPrimeViewOf
+    npg:id "isPrimeViewOf" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:hasPrimeView ;
+    skos:definition "The :isPrimeViewOf relation links a PrimeView with its associated primer article. A PrimeView is an illustrated summary of a primer article. A primer is a review that describes an important, but usually technically complex, concept in an easily understood way."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Is PrimeView Of"@en .
+
+relations:isProtocolOf
+    npg:id "isProtocolOf" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:hasProtocol ;
+    skos:definition "The :isProtocolOf relation links a protocol with the article that is associated with the protocol. A protocol is a ‘recipe’-style step-by-step description of a procedure."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Is Protocol Of"@en .
+
+relations:isProtocolUpdateOf
+    npg:id "isProtocolUpdateOf" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:hasProtocolUpdate ;
+    skos:definition "The :isProtocolUpdateOf relation links a protocol update with the original protocol article. A protocol update is a new article that provides an update to an existing protocol."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Is Protocol Update Of"@en .
+
+relations:isRelatedOf
+    npg:id "isRelatedOf" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:hasRelated ;
+    skos:definition "The :isRelatedOf relation links two related articles (and is the inverse of the Has Related relation). It is a generic relation that could be used if the type or reason for the relation is not given."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Is Related Of"@en .
+
+relations:isResearchHighlightOf
+    npg:id "isResearchHighlightOf" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:hasResearchHighlight ;
+    skos:definition "The :isResearchHighlightOf relation links a research highlight with an article that is a subject of the research highlight. A research highlight is an article written by journalists to convey a summary of achievements of selected new research papers."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Is Research Highlight Of"@en .
+
+relations:isResponseOf
+    npg:id "isResponseOf" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:hasResponse ;
+    skos:definition "The :isResponseOf relation links a response with the article that is the focus of the response. A response could be a comment on material published in the journal, or could be a peer-reviewed formal response to published research."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Is Response Of"@en .
+
+relations:isRetractionOf
+    npg:id "isRetractionOf" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:hasRetraction ;
+    skos:definition "The :isRetractionOf relation links a retraction with the article that is the subject of the retraction. A retraction is a notification of invalid results, which is necessary when either the main point of the paper or most of the paper is either based on artefact or found to be a result of scientific misconduct."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Is Retraction Of"@en .
+
+relations:isThreadOf
+    npg:id "isThreadOf" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:hasThread ;
+    skos:definition "The :isThreadOf relation links a thread with an article that is a subject of the thread. A thread is an editorial synthesis composed of content excerpted from a group of current papers (typically at least five), and tied together by a minimal supporting narrative."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Is Thread Of"@en .
+
+relations:isUpdateOf
+    npg:id "isUpdateOf" ;
+    a owl:ObjectProperty ;
+    rdfs:domain npg:Publication ;
+    rdfs:isDefinedBy <http://ns.nature.com/relations/> ;
+    rdfs:range npg:Publication ;
+    rdfs:subPropertyOf npg:relation ;
+    owl:inverseOf relations:hasUpdate ;
+    skos:definition "The :isUpdateOf relation links an update with the original article. An update is a new article that provides an update to an existing one."@en ;
+    skos:inScheme <http://ns.nature.com/relations/> ;
+    skos:prefLabel "Is Update Of"@en .
+
